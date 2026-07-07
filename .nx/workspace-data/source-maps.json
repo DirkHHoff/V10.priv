@@ -1,0 +1,5994 @@
+{
+  "imxweb/projects/aad": {
+    "root": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/aad/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-cornydqs.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-cornydqs": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude.0": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/aad/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/aob": {
+    "root": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/aob/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/aob/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/apc": {
+    "root": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/apc/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/apc/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/att": {
+    "root": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/att/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/att/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/cpl": {
+    "root": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/cpl/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/cpl/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/custom-app": {
+    "root": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/custom-app/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.2": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.3": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.4": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.5": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.6": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.7": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.8": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.9": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.10": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.11": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.12": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.13": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.14": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.15": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.16": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.17": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.18": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.aot": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.2": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.3": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.4": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.stylePreprocessorOptions": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.optimization": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.extractLicenses": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.sourceMap": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.namedChunks": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.optimization": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.extractLicenses": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.sourceMap": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.namedChunks": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5.tsConfig": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.browserTarget": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.polyfills": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/custom-app/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/dpr": {
+    "root": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/dpr/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qbm": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/dpr/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/hds": {
+    "root": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/hds/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude.0": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/hds/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/iqc": {
+    "root": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/iqc/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/iqc/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/olg": {
+    "root": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/olg/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude.0": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/olg/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/pol": {
+    "root": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/pol/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/pol/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qam": {
+    "root": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qam/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude.0": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.codeCoverageExclude": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qam/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qbm": {
+    "root": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qbm/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qbm/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qbm-app-landingpage": {
+    "root": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qbm-app-landingpage/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qbm": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.aot": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.2": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.3": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.4": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.5": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.6": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.7": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.8": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.9": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.10": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.11": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.12": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.13": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.14": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.15": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.16": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.17": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.18": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.2": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.3": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.2": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.stylePreprocessorOptions": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.aot": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.optimization": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.extractLicenses": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.sourceMap": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.namedChunks": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.optimization": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.extractLicenses": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.sourceMap": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.namedChunks": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5.tsConfig": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.browserTarget": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.polyfills": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.scripts": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.2": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qbm-app-landingpage/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qer": {
+    "root": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qer/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qbm": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qer/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qer-app-portal": {
+    "root": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qer-app-portal/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.aot": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.2": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.3": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.4": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.5": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.6": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.7": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.8": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.9": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.10": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.11": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.12": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.13": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.14": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.15": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.16": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.17": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.18": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.2": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.3": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.2": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.3": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.4": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.stylePreprocessorOptions": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.aot": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.optimization": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.extractLicenses": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.sourceMap": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.namedChunks": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.optimization": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.extractLicenses": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.sourceMap": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.namedChunks": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5.tsConfig": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.browserTarget": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.polyfills": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qer-app-portal/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/qer-app-pwdportal": {
+    "root": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/qer-app-pwdportal/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.2": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.3": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.4": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.5": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.6": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.7": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.8": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.9": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.10": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.11": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.12": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.13": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.14": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.15": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.16": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.17": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies.18": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.allowedCommonJsDependencies": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.aot": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.2": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets.3": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles.2": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.stylePreprocessorOptions": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.fileReplacements": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.sourceMap": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.namedChunks": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.fileReplacements": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.optimization": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.extractLicenses": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.sourceMap": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.namedChunks": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.fileReplacements": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.optimization": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.extractLicenses": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.sourceMap": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.namedChunks": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5.tsConfig": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.es5": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-dev": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.remote-qs": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.es5": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.browserTarget": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.polyfills": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.assets": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.styles": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/qer-app-pwdportal/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/rmb": {
+    "root": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/rmb/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/rmb/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/rms": {
+    "root": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/rms/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/rms/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/rps": {
+    "root": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/rps/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/rps/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/sac": {
+    "root": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/sac/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/sac/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "imxweb/projects/tsb": {
+    "root": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "imxweb/projects/tsb/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.qer": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "generators.@schematics/angular:component.style": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs.0": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-dev": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.remote-qs": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.main": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.karmaConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.stylePreprocessorOptions": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.0": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig.1": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.tsConfig": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.0": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.1": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude.2": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.exclude": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "imxweb/projects/tsb/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

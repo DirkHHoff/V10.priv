@@ -1,0 +1,2802 @@
+{
+  "nodes": {
+    "qbm-app-landingpage": {
+      "name": "qbm-app-landingpage",
+      "type": "app",
+      "data": {
+        "root": "imxweb/projects/qbm-app-landingpage",
+        "name": "qbm-app-landingpage",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/qbm-app-landingpage/src",
+        "projectType": "application",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qbm"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qbm-app-landingpage",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "aot": true,
+              "outputPath": {
+                "base": "dist/qbm-app-landingpage",
+                "browser": ""
+              },
+              "allowedCommonJsDependencies": [
+                "lodash",
+                "highlight.js",
+                "file-saver",
+                "billboard.js",
+                "moment-timezone",
+                "core-js/fn/map",
+                "core-js/fn/set",
+                "core-js/fn/weak-map",
+                "core-js/fn/array/from",
+                "core-js/fn/object/assign",
+                "core-js/es/array/from",
+                "core-js/es/object/assign",
+                "core-js/es/map",
+                "core-js/es/set",
+                "core-js/es/weak-map",
+                "lodash.debounce",
+                "lodash.clamp",
+                "moment",
+                "@elemental-ui/cadence-icon/codepoints"
+              ],
+              "index": "projects/qbm-app-landingpage/src/index.html",
+              "browser": "projects/qbm-app-landingpage/src/main.ts",
+              "polyfills": [
+                "projects/qbm-app-landingpage/src/polyfills.ts"
+              ],
+              "tsConfig": "projects/qbm-app-landingpage/tsconfig.app.json",
+              "assets": [
+                "projects/qbm-app-landingpage/src/assets",
+                "projects/qbm-app-landingpage/src/appconfig.json",
+                {
+                  "glob": "**/*",
+                  "input": "./shared/assets/",
+                  "output": "./assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "./node_modules/@elemental-ui/core/assets",
+                  "output": "./assets"
+                }
+              ],
+              "styles": [
+                "shared/scss/styles.scss",
+                "projects/qbm-app-landingpage/src/styles.scss",
+                "node_modules/swagger-ui-dist/swagger-ui.css"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              },
+              "scripts": [
+                "node_modules/swagger-ui-dist/swagger-ui-bundle.js",
+                "node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js"
+              ]
+            },
+            "configurations": {
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qbm-app-landingpage/src/environments/environment.ts",
+                    "with": "projects/qbm-app-landingpage/src/environments/environment.prod.ts"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": true,
+                "aot": true,
+                "extractLicenses": true,
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "20mb",
+                    "maximumError": "40mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "6kb"
+                  }
+                ]
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-dev": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qbm-app-landingpage/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qbm-app-landingpage/environments/environment.remote-dev.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-qs": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qbm-app-landingpage/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qbm-app-landingpage/environments/environment.remote-qs.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "es5": {
+                "tsConfig": "./projects/qbm-app-landingpage/tsconfig-es5.app.json"
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "qbm-app-landingpage:build"
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "qbm-app-landingpage:build:production"
+              },
+              "development": {
+                "browserTarget": "qbm-app-landingpage:build:development"
+              },
+              "remote-dev": {
+                "browserTarget": "qbm-app-landingpage:build:remote-dev"
+              },
+              "remote-qs": {
+                "browserTarget": "qbm-app-landingpage:build:remote-qs"
+              },
+              "es5": {
+                "browserTarget": "qbm-app-landingpage:build:es5"
+              }
+            },
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "browserTarget": "qbm-app-landingpage:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/qbm-app-landingpage/src/test.ts",
+              "polyfills": "projects/qbm-app-landingpage/src/polyfills.ts",
+              "tsConfig": "projects/qbm-app-landingpage/tsconfig.spec.json",
+              "karmaConfig": "projects/qbm-app-landingpage/karma.conf.js",
+              "scripts": [],
+              "assets": [
+                "projects/qbm-app-landingpage/src/assets",
+                "projects/qbm-app-landingpage/src/appconfig.json",
+                {
+                  "glob": "**/*",
+                  "input": "./shared/assets/",
+                  "output": "./assets"
+                }
+              ],
+              "styles": [
+                "projects/qbm-app-landingpage/src/styles.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/qbm-app-landingpage/tsconfig.app.json",
+                "projects/qbm-app-landingpage/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "qer-app-pwdportal": {
+      "name": "qer-app-pwdportal",
+      "type": "app",
+      "data": {
+        "root": "imxweb/projects/qer-app-pwdportal",
+        "name": "qer-app-pwdportal",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "projects/qer-app-pwdportal/src",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qer-app-pwdportal",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "dependsOn": [
+              "^build",
+              {
+                "projects": [
+                  "att"
+                ],
+                "target": "build"
+              }
+            ],
+            "options": {
+              "allowedCommonJsDependencies": [
+                "lodash",
+                "highlight.js",
+                "file-saver",
+                "billboard.js",
+                "moment-timezone",
+                "core-js/fn/map",
+                "core-js/fn/set",
+                "core-js/fn/weak-map",
+                "core-js/fn/array/from",
+                "core-js/fn/object/assign",
+                "core-js/es/array/from",
+                "core-js/es/object/assign",
+                "core-js/es/map",
+                "core-js/es/set",
+                "core-js/es/weak-map",
+                "lodash.debounce",
+                "lodash.clamp",
+                "moment",
+                "@elemental-ui/cadence-icon/codepoints"
+              ],
+              "outputPath": {
+                "base": "dist/qer-app-pwdportal",
+                "browser": ""
+              },
+              "index": "projects/qer-app-pwdportal/src/index.html",
+              "browser": "projects/qer-app-pwdportal/src/main.ts",
+              "polyfills": [
+                "projects/qer-app-pwdportal/src/polyfills.ts"
+              ],
+              "tsConfig": "projects/qer-app-pwdportal/tsconfig.app.json",
+              "aot": true,
+              "assets": [
+                "projects/qer-app-pwdportal/src/appconfig.json",
+                "projects/qer-app-pwdportal/src/assets",
+                {
+                  "glob": "**/*",
+                  "input": "./shared/assets/",
+                  "output": "./assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "./node_modules/@elemental-ui/core/assets",
+                  "output": "./assets"
+                }
+              ],
+              "styles": [
+                "shared/scss/styles.scss",
+                "projects/qer-app-pwdportal/src/styles.scss",
+                "projects/qbm/src/lib/styles/imx-page-title.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-pwdportal/src/environments/environment.ts",
+                    "with": "projects/qer-app-pwdportal/src/environments/environment.prod.ts"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": false,
+                "extractLicenses": true,
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "20mb",
+                    "maximumError": "40mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "6kb"
+                  }
+                ]
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-dev": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-pwdportal/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qer-app-pwdportal/environments/environment.remote-dev.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-qs": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-pwdportal/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qer-app-pwdportal/environments/environment.remote-qs.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "es5": {
+                "tsConfig": "./projects/qer-app-pwdportal/tsconfig-es5.app.json"
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "qer-app-pwdportal:build"
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "qer-app-pwdportal:build:production"
+              },
+              "development": {
+                "browserTarget": "qer-app-pwdportal:build:development"
+              },
+              "remote-dev": {
+                "browserTarget": "qer-app-pwdportal:build:remote-dev"
+              },
+              "remote-qs": {
+                "browserTarget": "qer-app-pwdportal:build:remote-qs"
+              },
+              "es5": {
+                "browserTarget": "qer-app-pwdportal:build:es5"
+              }
+            },
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "browserTarget": "qer-app-pwdportal:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/qer-app-pwdportal/src/test.ts",
+              "polyfills": "projects/qer-app-pwdportal/src/polyfills.ts",
+              "tsConfig": "projects/qer-app-pwdportal/tsconfig.spec.json",
+              "karmaConfig": "projects/qer-app-pwdportal/karma.conf.js",
+              "assets": [
+                "projects/qer-app-pwdportal/src/appconfig.json",
+                "projects/qer-app-pwdportal/src/assets"
+              ],
+              "styles": [
+                "projects/qer-app-pwdportal/src/styles.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/qer-app-pwdportal/tsconfig.app.json",
+                "projects/qer-app-pwdportal/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "qer-app-portal": {
+      "name": "qer-app-portal",
+      "type": "app",
+      "data": {
+        "root": "imxweb/projects/qer-app-portal",
+        "name": "qer-app-portal",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/qer-app-portal/src",
+        "projectType": "application",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qer-app-portal",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "dependsOn": [
+              "^build",
+              {
+                "projects": [
+                  "qer",
+                  "aad",
+                  "aob",
+                  "apc",
+                  "att",
+                  "cpl",
+                  "hds",
+                  "iqc",
+                  "olg",
+                  "pol",
+                  "qam",
+                  "rmb",
+                  "rms",
+                  "rps",
+                  "sac",
+                  "tsb"
+                ],
+                "target": "build"
+              }
+            ],
+            "options": {
+              "aot": true,
+              "outputPath": {
+                "base": "dist/qer-app-portal",
+                "browser": ""
+              },
+              "allowedCommonJsDependencies": [
+                "lodash",
+                "highlight.js",
+                "file-saver",
+                "billboard.js",
+                "moment-timezone",
+                "core-js/fn/map",
+                "core-js/fn/set",
+                "core-js/fn/weak-map",
+                "core-js/fn/array/from",
+                "core-js/fn/object/assign",
+                "core-js/es/array/from",
+                "core-js/es/object/assign",
+                "core-js/es/map",
+                "core-js/es/set",
+                "core-js/es/weak-map",
+                "lodash.debounce",
+                "lodash.clamp",
+                "moment",
+                "@elemental-ui/cadence-icon/codepoints"
+              ],
+              "index": "projects/qer-app-portal/src/index.html",
+              "browser": "projects/qer-app-portal/src/main.ts",
+              "polyfills": [
+                "projects/qer-app-portal/src/polyfills.ts"
+              ],
+              "tsConfig": "projects/qer-app-portal/tsconfig.app.json",
+              "assets": [
+                "projects/qer-app-portal/src/assets",
+                "projects/qer-app-portal/src/appconfig.json",
+                {
+                  "glob": "**/*",
+                  "input": "./shared/assets/",
+                  "output": "./assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "./node_modules/@elemental-ui/core/assets",
+                  "output": "./assets"
+                }
+              ],
+              "styles": [
+                "shared/scss/styles.scss",
+                "projects/qer-app-portal/src/styles.scss",
+                "projects/qbm/src/lib/styles/imx-page-title.scss",
+                "projects/qbm/src/lib/styles/data-explorer-common.scss",
+                "projects/qbm/src/lib/styles/data-explorer-details-common.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-portal/src/environments/environment.ts",
+                    "with": "projects/qer-app-portal/src/environments/environment.prod.ts"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": false,
+                "aot": true,
+                "extractLicenses": true,
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "20mb",
+                    "maximumError": "40mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "6kb"
+                  }
+                ]
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-dev": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-portal/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qer-app-portal/environments/environment.remote-dev.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-qs": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/qer-app-portal/src/environments/environment.ts",
+                    "with": "../imxweb_envs/qer-app-portal/environments/environment.remote-qs.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "es5": {
+                "tsConfig": "./projects/qer-app-portal/tsconfig-es5.app.json"
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "qer-app-portal:build"
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "qer-app-portal:build:production"
+              },
+              "development": {
+                "browserTarget": "qer-app-portal:build:development"
+              },
+              "remote-dev": {
+                "browserTarget": "qer-app-portal:build:remote-dev"
+              },
+              "remote-qs": {
+                "browserTarget": "qer-app-portal:build:remote-qs"
+              },
+              "es5": {
+                "browserTarget": "qer-app-portal:build:es5"
+              }
+            },
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "browserTarget": "qer-app-portal:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/qer-app-portal/src/test.ts",
+              "polyfills": "projects/qer-app-portal/src/polyfills.ts",
+              "tsConfig": "projects/qer-app-portal/tsconfig.spec.json",
+              "karmaConfig": "projects/qer-app-portal/karma.conf.js",
+              "styles": [
+                "projects/qer-app-portal/src/styles.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              },
+              "assets": [
+                "projects/qer-app-portal/src/appconfig.json",
+                "projects/qer-app-portal/src/assets"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/qer-app-portal/tsconfig.app.json",
+                "projects/qer-app-portal/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "custom-app": {
+      "name": "custom-app",
+      "type": "app",
+      "data": {
+        "root": "imxweb/projects/custom-app",
+        "name": "custom-app",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "sourceRoot": "projects/custom-app/src",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "custom-app",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:application",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": {
+                "base": "dist/custom-app",
+                "browser": ""
+              },
+              "allowedCommonJsDependencies": [
+                "lodash",
+                "highlight.js",
+                "file-saver",
+                "billboard.js",
+                "moment-timezone",
+                "core-js/fn/map",
+                "core-js/fn/set",
+                "core-js/fn/weak-map",
+                "core-js/fn/array/from",
+                "core-js/fn/object/assign",
+                "core-js/es/array/from",
+                "core-js/es/object/assign",
+                "core-js/es/map",
+                "core-js/es/set",
+                "core-js/es/weak-map",
+                "lodash.debounce",
+                "lodash.clamp",
+                "moment",
+                "@elemental-ui/cadence-icon/codepoints"
+              ],
+              "index": "projects/custom-app/src/index.html",
+              "browser": "projects/custom-app/src/main.ts",
+              "polyfills": [
+                "projects/custom-app/src/polyfills.ts"
+              ],
+              "tsConfig": "projects/custom-app/tsconfig.app.json",
+              "aot": true,
+              "assets": [
+                "projects/custom-app/src/appconfig.json",
+                "projects/custom-app/src/assets",
+                {
+                  "glob": "**/*",
+                  "input": "./html",
+                  "output": "./html"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "./shared/assets/",
+                  "output": "./assets"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "./node_modules/@elemental-ui/core/assets",
+                  "output": "./assets"
+                }
+              ],
+              "styles": [
+                "projects/custom-app/src/styles.scss",
+                "projects/qbm/src/lib/styles/imx-page-title.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {
+              "production": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/custom-app/src/environments/environment.ts",
+                    "with": "projects/custom-app/src/environments/environment.prod.ts"
+                  }
+                ],
+                "optimization": true,
+                "outputHashing": "all",
+                "sourceMap": false,
+                "namedChunks": true,
+                "extractLicenses": true,
+                "budgets": [
+                  {
+                    "type": "initial",
+                    "maximumWarning": "20mb",
+                    "maximumError": "40mb"
+                  },
+                  {
+                    "type": "anyComponentStyle",
+                    "maximumWarning": "6kb"
+                  }
+                ]
+              },
+              "development": {
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-dev": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/custom-app/src/environments/environment.ts",
+                    "with": "../imxweb_envs/custom-app/environments/environment.remote-dev.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "remote-qs": {
+                "fileReplacements": [
+                  {
+                    "replace": "projects/custom-app/src/environments/environment.ts",
+                    "with": "../imxweb_envs/custom-app/environments/environment.remote-qs.ts"
+                  }
+                ],
+                "optimization": false,
+                "extractLicenses": false,
+                "sourceMap": true,
+                "namedChunks": true
+              },
+              "es5": {
+                "tsConfig": "./projects/custom-app/tsconfig-es5.app.json"
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@angular-devkit/build-angular:dev-server",
+            "options": {
+              "browserTarget": "custom-app:build"
+            },
+            "configurations": {
+              "production": {
+                "browserTarget": "custom-app:build:production"
+              },
+              "development": {
+                "browserTarget": "custom-app:build:development"
+              },
+              "remote-dev": {
+                "browserTarget": "custom-app:build:remote-dev"
+              },
+              "remote-qs": {
+                "browserTarget": "custom-app:build:remote-qs"
+              },
+              "es5": {
+                "browserTarget": "custom-app:build:es5"
+              }
+            },
+            "parallelism": true
+          },
+          "extract-i18n": {
+            "executor": "@angular-devkit/build-angular:extract-i18n",
+            "options": {
+              "browserTarget": "custom-app:build"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/custom-app/src/test.ts",
+              "polyfills": "projects/custom-app/src/polyfills.ts",
+              "tsConfig": "projects/custom-app/tsconfig.spec.json",
+              "karmaConfig": "projects/custom-app/karma.conf.js",
+              "assets": [
+                "projects/custom-app/src/appconfig.json",
+                "projects/custom-app/src/assets"
+              ],
+              "styles": [
+                "projects/custom-app/src/styles.scss"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/custom-app/tsconfig.app.json",
+                "projects/custom-app/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "aad": {
+      "name": "aad",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/aad",
+        "name": "aad",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/aad/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "aad",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/aad"
+            ],
+            "options": {
+              "tsConfig": "projects/aad/tsconfig.lib.json",
+              "project": "projects/aad/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/aad/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/aad/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/aad/tsconfig.lib.json"
+              },
+              "remote-cornydqs": {
+                "tsConfig": "projects/aad/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/aad/src/test.ts",
+              "tsConfig": "projects/aad/tsconfig.spec.json",
+              "karmaConfig": "projects/aad/karma.conf.js",
+              "codeCoverageExclude": [
+                "projects/o3t/src/**/test/*"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/aad/tsconfig.lib.json",
+                "projects/aad/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "aob": {
+      "name": "aob",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/aob",
+        "name": "aob",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/aob/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "aob",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/aob"
+            ],
+            "options": {
+              "tsConfig": "projects/aob/tsconfig.lib.json",
+              "project": "projects/aob/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/aob/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/aob/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/aob/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/aob/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/aob/src/test.ts",
+              "tsConfig": "projects/aob/tsconfig.spec.json",
+              "karmaConfig": "projects/aob/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/aob/tsconfig.lib.json",
+                "projects/aob/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "apc": {
+      "name": "apc",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/apc",
+        "name": "apc",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/apc/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "apc",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/apc"
+            ],
+            "options": {
+              "tsConfig": "projects/apc/tsconfig.lib.json",
+              "project": "projects/apc/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/apc/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/apc/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/apc/src/test.ts",
+              "tsConfig": "projects/apc/tsconfig.spec.json",
+              "karmaConfig": "projects/apc/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/apc/tsconfig.lib.json",
+                "projects/apc/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "att": {
+      "name": "att",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/att",
+        "name": "att",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/att/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "att",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/att"
+            ],
+            "options": {
+              "tsConfig": "projects/att/tsconfig.lib.json",
+              "project": "projects/att/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/att/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/att/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/att/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/att/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/att/src/test.ts",
+              "tsConfig": "projects/att/tsconfig.spec.json",
+              "karmaConfig": "projects/att/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/att/tsconfig.lib.json",
+                "projects/att/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "cpl": {
+      "name": "cpl",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/cpl",
+        "name": "cpl",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/cpl/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "cpl",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/cpl"
+            ],
+            "options": {
+              "tsConfig": "projects/cpl/tsconfig.lib.json",
+              "project": "projects/cpl/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/cpl/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/cpl/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/cpl/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/cpl/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/cpl/src/test.ts",
+              "tsConfig": "projects/cpl/tsconfig.spec.json",
+              "karmaConfig": "projects/cpl/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/cpl/tsconfig.lib.json",
+                "projects/cpl/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "dpr": {
+      "name": "dpr",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/dpr",
+        "name": "dpr",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/dpr/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qbm"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "dpr",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/dpr"
+            ],
+            "options": {
+              "tsConfig": "projects/dpr/tsconfig.lib.json",
+              "project": "projects/dpr/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/dpr/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/dpr/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/dpr/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/dpr/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/dpr/src/test.ts",
+              "tsConfig": "projects/dpr/tsconfig.spec.json",
+              "karmaConfig": "projects/dpr/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/dpr/tsconfig.lib.json",
+                "projects/dpr/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "hds": {
+      "name": "hds",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/hds",
+        "name": "hds",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/hds/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "hds",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/hds"
+            ],
+            "options": {
+              "tsConfig": "projects/hds/tsconfig.lib.json",
+              "project": "projects/hds/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/hds/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/hds/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/hds/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/hds/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/hds/src/test.ts",
+              "tsConfig": "projects/hds/tsconfig.spec.json",
+              "karmaConfig": "projects/hds/karma.conf.js",
+              "codeCoverageExclude": [
+                "projects/hds/src/**/test/*"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/hds/tsconfig.lib.json",
+                "projects/hds/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "iqc": {
+      "name": "iqc",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/iqc",
+        "name": "iqc",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/iqc/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "iqc",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/iqc"
+            ],
+            "options": {
+              "tsConfig": "projects/iqc/tsconfig.lib.json",
+              "project": "projects/iqc/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/iqc/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/iqc/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/iqc/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/iqc/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/iqc/src/test.ts",
+              "tsConfig": "projects/iqc/tsconfig.spec.json",
+              "karmaConfig": "projects/iqc/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/iqc/tsconfig.lib.json",
+                "projects/iqc/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "olg": {
+      "name": "olg",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/olg",
+        "name": "olg",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/olg/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "olg",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/olg"
+            ],
+            "options": {
+              "tsConfig": "projects/olg/tsconfig.lib.json",
+              "project": "projects/olg/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/olg/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/olg/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/olg/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/olg/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/olg/src/test.ts",
+              "tsConfig": "projects/olg/tsconfig.spec.json",
+              "karmaConfig": "projects/olg/karma.conf.js",
+              "codeCoverageExclude": [
+                "projects/olg/src/**/test/*"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/olg/tsconfig.lib.json",
+                "projects/olg/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "pol": {
+      "name": "pol",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/pol",
+        "name": "pol",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/pol/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "pol",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/pol"
+            ],
+            "options": {
+              "tsConfig": "projects/pol/tsconfig.lib.json",
+              "project": "projects/pol/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/pol/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/pol/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/pol/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/pol/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/pol/src/test.ts",
+              "tsConfig": "projects/pol/tsconfig.spec.json",
+              "karmaConfig": "projects/pol/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/pol/tsconfig.lib.json",
+                "projects/pol/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "qam": {
+      "name": "qam",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/qam",
+        "name": "qam",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/qam/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qam",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/qam"
+            ],
+            "options": {
+              "tsConfig": "projects/qam/tsconfig.lib.json",
+              "project": "projects/qam/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/qam/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/qam/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/qam/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/qam/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/qam/src/test.ts",
+              "tsConfig": "projects/qam/tsconfig.spec.json",
+              "karmaConfig": "projects/qam/karma.conf.js",
+              "codeCoverageExclude": [
+                "projects/qam/src/**/test/*"
+              ],
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/qam/tsconfig.lib.json",
+                "projects/qam/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "qbm": {
+      "name": "qbm",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/qbm",
+        "name": "qbm",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/qbm/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qbm",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/qbm"
+            ],
+            "options": {
+              "tsConfig": "projects/qbm/tsconfig.lib.json",
+              "project": "projects/qbm/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/qbm/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/qbm/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/qbm/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/qbm/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              },
+              "main": "projects/qbm/src/test.ts",
+              "tsConfig": "projects/qbm/tsconfig.spec.json",
+              "karmaConfig": "projects/qbm/karma.conf.js"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:eslint",
+            "options": {
+              "tsConfig": [
+                "projects/qbm/tsconfig.lib.json",
+                "projects/qbm/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
+    "qer": {
+      "name": "qer",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/qer",
+        "name": "qer",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/qer/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qbm"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "qer",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/qer"
+            ],
+            "options": {
+              "tsConfig": "projects/qer/tsconfig.lib.json",
+              "project": "projects/qer/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/qer/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/qer/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/qer/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/qer/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              },
+              "main": "projects/qer/src/test.ts",
+              "tsConfig": "projects/qer/tsconfig.spec.json",
+              "karmaConfig": "projects/qer/karma.conf.js"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:eslint",
+            "options": {
+              "tsConfig": [
+                "projects/qer/tsconfig.lib.json",
+                "projects/qer/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "rmb": {
+      "name": "rmb",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/rmb",
+        "name": "rmb",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/rmb/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "rmb",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/rmb"
+            ],
+            "options": {
+              "tsConfig": "projects/rmb/tsconfig.lib.json",
+              "project": "projects/rmb/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/rmb/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/rmb/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/rmb/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/rmb/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/rmb/src/test.ts",
+              "tsConfig": "projects/rmb/tsconfig.spec.json",
+              "karmaConfig": "projects/rmb/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/rmb/tsconfig.lib.json",
+                "projects/rmb/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "rms": {
+      "name": "rms",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/rms",
+        "name": "rms",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/rms/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "rms",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/rms"
+            ],
+            "options": {
+              "tsConfig": "projects/rms/tsconfig.lib.json",
+              "project": "projects/rms/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/rms/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/rms/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/rms/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/rms/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/rms/src/test.ts",
+              "tsConfig": "projects/rms/tsconfig.spec.json",
+              "karmaConfig": "projects/rms/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/rms/tsconfig.lib.json",
+                "projects/rms/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "rps": {
+      "name": "rps",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/rps",
+        "name": "rps",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/rps/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "rps",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/rps"
+            ],
+            "options": {
+              "tsConfig": "projects/rps/tsconfig.lib.json",
+              "project": "projects/rps/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/rps/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/rps/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/rps/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/rps/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/rps/src/test.ts",
+              "tsConfig": "projects/rps/tsconfig.spec.json",
+              "karmaConfig": "projects/rps/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/rps/tsconfig.lib.json",
+                "projects/rps/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "sac": {
+      "name": "sac",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/sac",
+        "name": "sac",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/sac/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "sac",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/sac"
+            ],
+            "options": {
+              "tsConfig": "projects/sac/tsconfig.lib.json",
+              "project": "projects/sac/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/sac/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/rps/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/sac/src/test.ts",
+              "tsConfig": "projects/sac/tsconfig.spec.json",
+              "karmaConfig": "projects/sac/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/sac/tsconfig.lib.json",
+                "projects/sac/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    },
+    "tsb": {
+      "name": "tsb",
+      "type": "lib",
+      "data": {
+        "root": "imxweb/projects/tsb",
+        "name": "tsb",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "projects/tsb/src",
+        "projectType": "library",
+        "prefix": "imx",
+        "tags": [
+          "npm:private"
+        ],
+        "implicitDependencies": [
+          "qer"
+        ],
+        "generators": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        },
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "tsb",
+            "packageVersion": "10.0.0",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "build": {
+            "executor": "@angular-devkit/build-angular:ng-packagr",
+            "outputs": [
+              "{workspaceRoot}/dist/tsb"
+            ],
+            "options": {
+              "tsConfig": "projects/tsb/tsconfig.lib.json",
+              "project": "projects/tsb/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "projects/tsb/tsconfig.lib.prod.json"
+              },
+              "development": {
+                "tsConfig": "projects/tsb/tsconfig.lib.json"
+              },
+              "remote-dev": {
+                "tsConfig": "projects/tsb/tsconfig.lib.json"
+              },
+              "remote-qs": {
+                "tsConfig": "projects/tsb/tsconfig.lib.json"
+              }
+            },
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@angular-devkit/build-angular:karma",
+            "options": {
+              "main": "projects/tsb/src/test.ts",
+              "tsConfig": "projects/tsb/tsconfig.spec.json",
+              "karmaConfig": "projects/tsb/karma.conf.js",
+              "stylePreprocessorOptions": {
+                "includePaths": [
+                  "./shared/assets",
+                  "./shared/scss",
+                  "./node_modules",
+                  "./node_modules/@elemental-ui/cadence-icon",
+                  "./node_modules/@elemental-ui/core"
+                ]
+              }
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "@angular-devkit/build-angular:tslint",
+            "options": {
+              "tsConfig": [
+                "projects/tsb/tsconfig.lib.json",
+                "projects/tsb/tsconfig.spec.json"
+              ],
+              "exclude": [
+                "**/node_modules/**",
+                "**/*.spec.ts",
+                "**/*.json"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        }
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "qbm-app-landingpage": [
+      {
+        "source": "qbm-app-landingpage",
+        "target": "qbm",
+        "type": "implicit"
+      }
+    ],
+    "qer-app-pwdportal": [],
+    "qer-app-portal": [],
+    "custom-app": [
+      {
+        "source": "custom-app",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "aad": [
+      {
+        "source": "aad",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "aob": [
+      {
+        "source": "aob",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "apc": [
+      {
+        "source": "apc",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "att": [
+      {
+        "source": "att",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "cpl": [
+      {
+        "source": "cpl",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "dpr": [
+      {
+        "source": "dpr",
+        "target": "qbm",
+        "type": "implicit"
+      }
+    ],
+    "hds": [
+      {
+        "source": "hds",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "iqc": [
+      {
+        "source": "iqc",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "olg": [
+      {
+        "source": "olg",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "pol": [
+      {
+        "source": "pol",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "qam": [
+      {
+        "source": "qam",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "qbm": [],
+    "qer": [
+      {
+        "source": "qer",
+        "target": "qbm",
+        "type": "implicit"
+      }
+    ],
+    "rmb": [
+      {
+        "source": "rmb",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "rms": [
+      {
+        "source": "rms",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "rps": [
+      {
+        "source": "rps",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "sac": [
+      {
+        "source": "sac",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ],
+    "tsb": [
+      {
+        "source": "tsb",
+        "target": "qer",
+        "type": "implicit"
+      }
+    ]
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1783460988489
+}

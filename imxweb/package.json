@@ -35,7 +35,8 @@
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "e2e": "ng e2e",
-    "doc": "node scripts/build-docs.js"
+    "doc": "node scripts/build-docs.js",
+    "watch:qer-app-portal": "nx watch --projects=qer-app-portal --includeDependencies -- nx run-many -t build -p %NX_PROJECT_NAME% --exclude=qer-app-portal,qer-app-pwdportal,qer-app-operationssupport"
   },
   "scriptsComments": {
     "start": "Runs a development server for <app> on localhost:4200. e.g npm run start <app>",
