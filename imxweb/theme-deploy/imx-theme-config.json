@@ -1,0 +1,12 @@
+{
+  "Themes": [
+    {
+      "Name": "CompanyTheme",
+      "DisplayName": "Company Theme",
+      "Class": "company-theme",
+      "Urls": [
+        "../company-theme/custom-theme.css"
+      ]
+    }
+  ]
+}

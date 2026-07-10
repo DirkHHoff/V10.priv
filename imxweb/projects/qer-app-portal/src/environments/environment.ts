@@ -33,6 +33,7 @@ export const environment = {
   clientUrl: 'https://oim.raver.lan',
   appName: 'qer-app-portal',
   appVersion: '1.0.0',
+  // withCredentials: true,
 };
 
 /*

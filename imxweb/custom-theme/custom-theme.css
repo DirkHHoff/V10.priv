@@ -1,0 +1,3506 @@
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/* -- Begin CSS Reset -- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  letter-spacing: normal !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 0 0 25px;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border-color: #919799;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+td,
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  padding: 24px;
+}
+
+td.mat-mdc-cell,
+td.mat-mdc-footer-cell,
+th.mat-mdc-header-cell {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+td.mat-mdc-cell:first-child,
+td.mat-mdc-footer-cell:first-child,
+th.mat-mdc-header-cell:first-child {
+  padding-left: 24px;
+}
+
+th.mat-mdc-header-cell {
+  text-align: left;
+}
+
+tfoot {
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- End Reset -- */
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/*!
+ * Copyright (c) 2017 ~ present NAVER Corp.
+ * billboard.js project is licensed under the MIT license
+ *
+ * billboard.js, JavaScript chart library
+ * https://naver.github.io/billboard.js/
+ *
+ * @version 3.18.0
+ */
+/*-- Chart --*/
+.bb svg {
+  font: 10px sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.bb path, .bb line {
+  fill: none;
+  stroke: #000;
+}
+
+.bb text, .bb .bb-button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.bb-legend-item-tile,
+.bb-xgrid-focus,
+.bb-ygrid-focus,
+.bb-ygrid {
+  shape-rendering: crispEdges;
+}
+
+.bb-chart-arcs .bb-needle {
+  fill: #000;
+}
+
+.bb-chart-arc .bb-gauge-value {
+  fill: #000;
+}
+
+.bb-chart-arc path {
+  stroke: #fff;
+}
+
+.bb-chart-arc rect {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.bb-chart-arc text {
+  fill: #fff;
+  font-size: 13px;
+}
+
+.bb-chart-arc {
+  /* Connector line base styles */
+}
+
+.bb-chart-arc .bb-arc-label-line {
+  fill: none;
+  stroke-width: 1px;
+  pointer-events: none;
+}
+
+.bb-chart-arc .bb-arc-label-line {
+  stroke: #7f7f7f;
+}
+
+.bb-chart-arc > text.bb-arc-label-line-text {
+  fill: #000;
+}
+
+/*-- Funnel --*/
+.bb-chart-funnels path {
+  stroke-width: 0;
+}
+
+.bb-chart-funnels + .bb-chart-texts text {
+  font-size: 13px;
+  fill: #fff;
+}
+
+/*-- Axis --*/
+.bb-axis {
+  shape-rendering: crispEdges;
+}
+
+.bb-axis .bb-axis-x-tooltip, .bb-axis .bb-axis-y-tooltip, .bb-axis .bb-axis-y2-tooltip {
+  font-size: 1em;
+  fill: #fff;
+  white-space: nowrap;
+}
+
+/*-- Grid --*/
+.bb-grid {
+  pointer-events: none;
+}
+
+.bb-grid line {
+  stroke: #aaa;
+}
+
+.bb-grid text {
+  fill: #aaa;
+}
+
+.bb-xgrid, .bb-ygrid {
+  stroke-dasharray: 3 3;
+}
+
+/*-- Text on Chart --*/
+.bb-text.bb-empty {
+  fill: #808080;
+  font-size: 2em;
+}
+
+/*-- Line --*/
+.bb-line {
+  stroke-width: 1px;
+}
+
+/*-- Point --*/
+.bb-circle._expanded_ {
+  stroke-width: 1px;
+  stroke: white;
+}
+
+.bb-selected-circle {
+  fill: white;
+  stroke-width: 2px;
+}
+
+/*-- Bar --*/
+.bb-bar {
+  stroke-width: 0;
+}
+
+.bb-bar._expanded_ {
+  fill-opacity: 0.75;
+}
+
+/*-- Candlestick --*/
+.bb-candlestick {
+  stroke-width: 1px;
+}
+
+.bb-candlestick._expanded_ {
+  fill-opacity: 0.75;
+}
+
+/*-- Focus --*/
+.bb-target.bb-focused, .bb-circles.bb-focused {
+  opacity: 1;
+}
+
+.bb-target.bb-focused path.bb-line, .bb-target.bb-focused path.bb-step, .bb-circles.bb-focused path.bb-line, .bb-circles.bb-focused path.bb-step {
+  stroke-width: 2px;
+}
+
+.bb-target.bb-defocused, .bb-circles.bb-defocused {
+  opacity: 0.3 !important;
+}
+
+.bb-target.bb-defocused .text-overlapping, .bb-circles.bb-defocused .text-overlapping {
+  opacity: 0.05 !important;
+}
+
+/*-- Region --*/
+.bb-region {
+  fill: steelblue;
+}
+
+.bb-region rect {
+  fill-opacity: 0.1;
+}
+
+/*-- Zoom region --*/
+.bb-zoom-brush {
+  fill-opacity: 0.1;
+}
+
+/*-- Brush --*/
+.bb-brush .extent {
+  fill-opacity: 0.1;
+}
+
+/*-- Legend --*/
+.bb-legend-item {
+  font-size: 12px;
+  user-select: none;
+}
+
+.bb-legend-item-hidden {
+  opacity: 0.15;
+}
+
+.bb-legend-background {
+  opacity: 0.75;
+  fill: white;
+  stroke: lightgray;
+  stroke-width: 1;
+}
+
+/*-- Title --*/
+.bb-title {
+  font: 14px sans-serif;
+}
+
+/*-- Treemap --*/
+.bb-chart-treemaps rect {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+/*-- Tooltip --*/
+.bb-tooltip-container {
+  z-index: 10;
+  user-select: none;
+  transform: translateZ(0);
+}
+
+.bb-tooltip {
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  empty-cells: show;
+  opacity: 0.9;
+  box-shadow: 7px 7px 12px -9px rgb(119, 119, 119);
+  white-space: nowrap;
+}
+
+.bb-tooltip tr {
+  border: 1px solid #CCC;
+}
+
+.bb-tooltip th {
+  background-color: #aaa;
+  font-size: 14px;
+  padding: 2px 5px;
+  text-align: left;
+  color: #FFF;
+}
+
+.bb-tooltip td {
+  font-size: 13px;
+  padding: 3px 6px;
+  background-color: #fff;
+  border-left: 1px dotted #999;
+}
+
+.bb-tooltip td > span, .bb-tooltip td > svg {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+}
+
+.bb-tooltip.value {
+  text-align: right;
+}
+
+/*-- Area --*/
+.bb-area {
+  stroke-width: 0;
+  opacity: 0.2;
+}
+
+/*-- Arc --*/
+.bb-chart-arcs-title {
+  dominant-baseline: middle;
+  font-size: 1.3em;
+}
+
+text.bb-chart-arcs-gauge-title {
+  dominant-baseline: middle;
+  font-size: 2.7em;
+}
+
+.bb-chart-arcs .bb-chart-arcs-background {
+  fill: #e0e0e0;
+  stroke: #fff;
+}
+
+.bb-chart-arcs .bb-chart-arcs-gauge-unit {
+  fill: #000;
+  font-size: 16px;
+}
+
+.bb-chart-arcs .bb-chart-arcs-gauge-max {
+  fill: #777;
+}
+
+.bb-chart-arcs .bb-chart-arcs-gauge-min {
+  fill: #777;
+}
+
+.bb-chart-arcs {
+  /*-- Polar --*/
+}
+
+.bb-chart-arcs .bb-levels circle {
+  fill: none;
+  stroke: #848282;
+  stroke-width: 0.5px;
+}
+
+.bb-chart-arcs .bb-levels text {
+  fill: #848282;
+}
+
+/*-- Radar --*/
+.bb-chart-radars .bb-levels polygon {
+  fill: none;
+  stroke: #848282;
+  stroke-width: 0.5px;
+}
+
+.bb-chart-radars .bb-levels text {
+  fill: #848282;
+}
+
+.bb-chart-radars .bb-axis line {
+  stroke: #848282;
+  stroke-width: 0.5px;
+}
+
+.bb-chart-radars .bb-axis text {
+  font-size: 1.15em;
+  cursor: default;
+}
+
+.bb-chart-radars .bb-shapes polygon {
+  fill-opacity: 0.2;
+  stroke-width: 1px;
+}
+
+/*-- Button --*/
+.bb-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bb-button .bb-zoom-reset {
+  font-size: 11px;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bb-color-pattern {
+  background-image: url("#0a96d1;#db2534;#4ba803;#ead200;#b400e5;#f800b6;#444647;");
+}
+
+.eui-dark-theme .bb-axis line,
+.eui-dark-theme .bb-axis .domain,
+.eui-contrast-theme .bb-axis line,
+.eui-contrast-theme .bb-axis .domain {
+  stroke: #ffffff;
+}
+.eui-dark-theme .bb-axis text,
+.eui-dark-theme .bb-legend text,
+.eui-dark-theme .bb-chart-arcs-title,
+.eui-contrast-theme .bb-axis text,
+.eui-contrast-theme .bb-legend text,
+.eui-contrast-theme .bb-chart-arcs-title {
+  fill: #ffffff;
+}
+.eui-dark-theme .bb-tooltip-container,
+.eui-dark-theme .bb-tooltip th,
+.eui-dark-theme .bb-tooltip td,
+.eui-contrast-theme .bb-tooltip-container,
+.eui-contrast-theme .bb-tooltip th,
+.eui-contrast-theme .bb-tooltip td {
+  color: #000000;
+}
+.eui-dark-theme .bb-chart-arc text,
+.eui-contrast-theme .bb-chart-arc text {
+  fill: #000000;
+}
+.eui-dark-theme .bb-color-pattern,
+.eui-contrast-theme .bb-color-pattern {
+  background-image: url("#8acbe3;#f29d99;#99c478;#f2e991;#d98eed;#fa96df;#616566;");
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/**
+* @copyright One Identity 2018-2019
+* @license All Rights Reserved
+*/
+@font-face {
+  font-family: "Cadence-Icon";
+  src: url("./Cadence-Icon-3.1.109.eot?#iefix") format("embedded-opentype"), url("./Cadence-Icon-3.1.109.woff2") format("woff2"), url("./Cadence-Icon-3.1.109.ttf") format("ttf"), url("./Cadence-Icon-3.1.109.woff") format("woff");
+}
+.eui-icon, eui-icon {
+  speak: none;
+  font-family: Cadence-Icon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.eui-icon.small, eui-icon.small {
+  font-size: 16px;
+}
+.eui-icon.medium, eui-icon.medium {
+  font-size: 24px;
+}
+.eui-icon.large, eui-icon.large {
+  font-size: 36px;
+}
+.eui-icon.x-large, eui-icon.x-large {
+  font-size: 48px;
+}
+
+.eui-icon:before, eui-icon:before {
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.icon-home:before {
+  content: "\e002";
+}
+
+.icon-refresh:before {
+  content: "\e003";
+}
+
+.icon-add:before {
+  content: "\e004";
+}
+
+.icon-remove:before {
+  content: "\e005";
+}
+
+.icon-search:before {
+  content: "\e006";
+}
+
+.icon-settings:before {
+  content: "\e007";
+}
+
+.icon-delete:before {
+  content: "\e008";
+}
+
+.icon-help:before {
+  content: "\e009";
+}
+
+.icon-warning:before {
+  content: "\e00a";
+}
+
+.icon-error:before {
+  content: "\e00b";
+}
+
+.icon-check:before {
+  content: "\e00c";
+}
+
+.icon-removetask:before {
+  content: "\e00d";
+}
+
+.icon-back:before {
+  content: "\e00e";
+}
+
+.icon-forward:before {
+  content: "\e00f";
+}
+
+.icon-info:before {
+  content: "\e010";
+}
+
+.icon-save:before {
+  content: "\e011";
+}
+
+.icon-export:before {
+  content: "\e012";
+}
+
+.icon-import:before {
+  content: "\e013";
+}
+
+.icon-lock:before {
+  content: "\e014";
+}
+
+.icon-unlock:before {
+  content: "\e015";
+}
+
+.icon-admin:before {
+  content: "\e016";
+}
+
+.icon-calendar:before {
+  content: "\e017";
+}
+
+.icon-filter:before {
+  content: "\e018";
+}
+
+.icon-folder:before {
+  content: "\e019";
+}
+
+.icon-openfolder:before {
+  content: "\e01a";
+}
+
+.icon-print:before {
+  content: "\e01b";
+}
+
+.icon-email:before {
+  content: "\e01c";
+}
+
+.icon-star:before {
+  content: "\e01d";
+}
+
+.icon-user:before {
+  content: "\e01e";
+}
+
+.icon-usergroup:before {
+  content: "\e01f";
+}
+
+.icon-approvals:before {
+  content: "\e020";
+}
+
+.icon-request:before {
+  content: "\e021";
+}
+
+.icon-sync:before {
+  content: "\e022";
+}
+
+.icon-download:before {
+  content: "\e023";
+}
+
+.icon-upload:before {
+  content: "\e024";
+}
+
+.icon-reports:before {
+  content: "\e025";
+}
+
+.icon-performance:before {
+  content: "\e026";
+}
+
+.icon-link:before {
+  content: "\e027";
+}
+
+.icon-collapsedown:before {
+  content: "\e028";
+}
+
+.icon-collapseup:before {
+  content: "\e029";
+}
+
+.icon-popout:before {
+  content: "\e02a";
+}
+
+.icon-language:before {
+  content: "\e02b";
+}
+
+.icon-config:before {
+  content: "\e02c";
+}
+
+.icon-edit:before {
+  content: "\e02d";
+}
+
+.icon-contactinfo:before {
+  content: "\e02e";
+}
+
+.icon-idp:before {
+  content: "\e02f";
+}
+
+.icon-password:before {
+  content: "\e030";
+}
+
+.icon-view:before {
+  content: "\e031";
+}
+
+.icon-location:before {
+  content: "\e032";
+}
+
+.icon-camera:before {
+  content: "\e033";
+}
+
+.icon-application:before {
+  content: "\e034";
+}
+
+.icon-database:before {
+  content: "\e035";
+}
+
+.icon-server:before {
+  content: "\e036";
+}
+
+.icon-asset:before {
+  content: "\e037";
+}
+
+.icon-networkdevice:before {
+  content: "\e038";
+}
+
+.icon-network:before {
+  content: "\e039";
+}
+
+.icon-assetgroup:before {
+  content: "\e03a";
+}
+
+.icon-desktop:before {
+  content: "\e03b";
+}
+
+.icon-reviewer:before {
+  content: "\e03c";
+}
+
+.icon-policy:before {
+  content: "\e03d";
+}
+
+.icon-scope:before {
+  content: "\e03e";
+}
+
+.icon-account:before {
+  content: "\e03f";
+}
+
+.icon-profile:before {
+  content: "\e040";
+}
+
+.icon-role:before {
+  content: "\e041";
+}
+
+.icon-time:before {
+  content: "\e042";
+}
+
+.icon-copy:before {
+  content: "\e043";
+}
+
+.icon-library:before {
+  content: "\e044";
+}
+
+.icon-batch:before {
+  content: "\e045";
+}
+
+.icon-serviceaccount:before {
+  content: "\e046";
+}
+
+.icon-permissions:before {
+  content: "\e047";
+}
+
+.icon-close:before {
+  content: "\e048";
+}
+
+.icon-setdefault:before {
+  content: "\e049";
+}
+
+.icon-partition:before {
+  content: "\e04a";
+}
+
+.icon-passwordhistory:before {
+  content: "\e04b";
+}
+
+.icon-collapseleft:before {
+  content: "\e04c";
+}
+
+.icon-collapseright:before {
+  content: "\e04d";
+}
+
+.icon-activitycenter:before {
+  content: "\e04e";
+}
+
+.icon-attributes:before {
+  content: "\e04f";
+}
+
+.icon-accountgroup:before {
+  content: "\e050";
+}
+
+.icon-safeguard:before {
+  content: "\e051";
+}
+
+.icon-restore:before {
+  content: "\e052";
+}
+
+.icon-passwordworkflow:before {
+  content: "\e053";
+}
+
+.icon-passwordcheckchange:before {
+  content: "\e054";
+}
+
+.icon-passwordrefresh:before {
+  content: "\e055";
+}
+
+.icon-manage:before {
+  content: "\e056";
+}
+
+.icon-ignore:before {
+  content: "\e057";
+}
+
+.icon-discovery:before {
+  content: "\e058";
+}
+
+.icon-run:before {
+  content: "\e059";
+}
+
+.icon-hide:before {
+  content: "\e05a";
+}
+
+.icon-clusternode:before {
+  content: "\e05b";
+}
+
+.icon-stop:before {
+  content: "\e05c";
+}
+
+.icon-elipsisasterisk:before {
+  content: "\e05d";
+}
+
+.icon-toc:before {
+  content: "\e05e";
+}
+
+.icon-index:before {
+  content: "\e05f";
+}
+
+.icon-scrollupdown:before {
+  content: "\e060";
+}
+
+.icon-scrollup:before {
+  content: "\e061";
+}
+
+.icon-scrolldown:before {
+  content: "\e062";
+}
+
+.icon-secured:before {
+  content: "\e063";
+}
+
+.icon-power:before {
+  content: "\e065";
+}
+
+.icon-heart:before {
+  content: "\e066";
+}
+
+.icon-columns:before {
+  content: "\e067";
+}
+
+.icon-pbote:before {
+  content: "\e068";
+}
+
+.icon-cback:before {
+  content: "\e069";
+}
+
+.icon-cforward:before {
+  content: "\e06a";
+}
+
+.icon-openstarhalf:before {
+  content: "\e06b";
+}
+
+.icon-arrows:before {
+  content: "\e06c";
+}
+
+.icon-openheart:before {
+  content: "\e06d";
+}
+
+.icon-resizehorizontal:before {
+  content: "\e06e";
+}
+
+.icon-resizevertical:before {
+  content: "\e06f";
+}
+
+.icon-arrowsvertical:before {
+  content: "\e070";
+}
+
+.icon-arrowshorizontal:before {
+  content: "\e071";
+}
+
+.icon-comments:before {
+  content: "\e072";
+}
+
+.icon-hdd:before {
+  content: "\e073";
+}
+
+.icon-share:before {
+  content: "\e074";
+}
+
+.icon-compress:before {
+  content: "\e075";
+}
+
+.icon-sliders:before {
+  content: "\e076";
+}
+
+.icon-task:before {
+  content: "\e077";
+}
+
+.icon-taskcomplete:before {
+  content: "\e078";
+}
+
+.icon-random:before {
+  content: "\e079";
+}
+
+.icon-piechart:before {
+  content: "\e07a";
+}
+
+.icon-boxx:before {
+  content: "\e07b";
+}
+
+.icon-boxcheck:before {
+  content: "\e07c";
+}
+
+.icon-linechart:before {
+  content: "\e07d";
+}
+
+.icon-areachart:before {
+  content: "\e07e";
+}
+
+.icon-chevronupdouble:before {
+  content: "\e07f";
+}
+
+.icon-chevrondowndouble:before {
+  content: "\e080";
+}
+
+.icon-levelup:before {
+  content: "\e081";
+}
+
+.icon-cursor:before {
+  content: "\e082";
+}
+
+.icon-microphonemute:before {
+  content: "\e083";
+}
+
+.icon-microphone:before {
+  content: "\e084";
+}
+
+.icon-wrench:before {
+  content: "\e085";
+}
+
+.icon-openbookmark:before {
+  content: "\e086";
+}
+
+.icon-bookmark:before {
+  content: "\e087";
+}
+
+.icon-backbar:before {
+  content: "\e088";
+}
+
+.icon-opencheckbox:before {
+  content: "\e089";
+}
+
+.icon-signout:before {
+  content: "\e08a";
+}
+
+.icon-editalt:before {
+  content: "\e08b";
+}
+
+.icon-drop:before {
+  content: "\e08c";
+}
+
+.icon-circlehalf:before {
+  content: "\e08d";
+}
+
+.icon-image:before {
+  content: "\e08e";
+}
+
+.icon-record:before {
+  content: "\e08f";
+}
+
+.icon-indent:before {
+  content: "\e090";
+}
+
+.icon-indentinverse:before {
+  content: "\e091";
+}
+
+.icon-text:before {
+  content: "\e092";
+}
+
+.icon-alignright:before {
+  content: "\e093";
+}
+
+.icon-aligncenter:before {
+  content: "\e094";
+}
+
+.icon-alignleft:before {
+  content: "\e095";
+}
+
+.icon-tagdouble:before {
+  content: "\e096";
+}
+
+.icon-tag:before {
+  content: "\e097";
+}
+
+.icon-volume3:before {
+  content: "\e098";
+}
+
+.icon-volume2:before {
+  content: "\e099";
+}
+
+.icon-volume1:before {
+  content: "\e09a";
+}
+
+.icon-volume0:before {
+  content: "\e09b";
+}
+
+.icon-lockalt:before {
+  content: "\e09c";
+}
+
+.icon-listalt:before {
+  content: "\e09d";
+}
+
+.icon-playcircle:before {
+  content: "\e09e";
+}
+
+.icon-inbox:before {
+  content: "\e09f";
+}
+
+.icon-arrowleftring:before {
+  content: "\e0a0";
+}
+
+.icon-arrowdownring:before {
+  content: "\e0a1";
+}
+
+.icon-arrowrightring:before {
+  content: "\e0a2";
+}
+
+.icon-arrowupring:before {
+  content: "\e0a3";
+}
+
+.icon-downloadalt:before {
+  content: "\e0a4";
+}
+
+.icon-wlan:before {
+  content: "\e0a5";
+}
+
+.icon-zoomout:before {
+  content: "\e0a6";
+}
+
+.icon-zoomin:before {
+  content: "\e0a7";
+}
+
+.icon-gridsmall:before {
+  content: "\e0a8";
+}
+
+.icon-gridbig:before {
+  content: "\e0a9";
+}
+
+.icon-film:before {
+  content: "\e0aa";
+}
+
+.icon-music:before {
+  content: "\e0ab";
+}
+
+.icon-question:before {
+  content: "\e0ac";
+}
+
+.icon-asterisk:before {
+  content: "\e0ad";
+}
+
+.icon-flag:before {
+  content: "\e0ae";
+}
+
+.icon-usermd:before {
+  content: "\e0af";
+}
+
+.icon-code:before {
+  content: "\e0b0";
+}
+
+.icon-bug:before {
+  content: "\e0b1";
+}
+
+.icon-key:before {
+  content: "\e0b2";
+}
+
+.icon-codesplit:before {
+  content: "\e0b3";
+}
+
+.icon-clipboard:before {
+  content: "\e0b4";
+}
+
+.icon-megaphone:before {
+  content: "\e0b5";
+}
+
+.icon-book:before {
+  content: "\e0b6";
+}
+
+.icon-box:before {
+  content: "\e0b7";
+}
+
+.icon-anchor:before {
+  content: "\e0b8";
+}
+
+.icon-magic:before {
+  content: "\e0b9";
+}
+
+.icon-opencomment:before {
+  content: "\e0ba";
+}
+
+.icon-comment:before {
+  content: "\e0bb";
+}
+
+.icon-compass:before {
+  content: "\e0bc";
+}
+
+.icon-lightbulb:before {
+  content: "\e0bd";
+}
+
+.icon-mobile:before {
+  content: "\e0be";
+}
+
+.icon-phone:before {
+  content: "\e0bf";
+}
+
+.icon-reorder:before {
+  content: "\e0c0";
+}
+
+.icon-undo:before {
+  content: "\e0c1";
+}
+
+.icon-sort:before {
+  content: "\e0c2";
+}
+
+.icon-sortup:before {
+  content: "\e0c3";
+}
+
+.icon-sortdown:before {
+  content: "\e0c4";
+}
+
+.icon-terminal:before {
+  content: "\e0c5";
+}
+
+.icon-opentrash:before {
+  content: "\e0c6";
+}
+
+.icon-crossquare:before {
+  content: "\e0c7";
+}
+
+.icon-arrowup:before {
+  content: "\e0c8";
+}
+
+.icon-arrowdown:before {
+  content: "\e0c9";
+}
+
+.icon-crosshair:before {
+  content: "\e0ca";
+}
+
+.icon-crosscircle:before {
+  content: "\e0cb";
+}
+
+.icon-rewind:before {
+  content: "\e0cc";
+}
+
+.icon-fastforward:before {
+  content: "\e0cd";
+}
+
+.icon-toend:before {
+  content: "\e0ce";
+}
+
+.icon-tobeginning:before {
+  content: "\e0cf";
+}
+
+.icon-pause:before {
+  content: "\e0d0";
+}
+
+.icon-globe:before {
+  content: "\e0d1";
+}
+
+.icon-exchange:before {
+  content: "\e0d2";
+}
+
+.icon-ellipsishorizontal:before {
+  content: "\e0d3";
+}
+
+.icon-ellipsisvertical:before {
+  content: "\e0d4";
+}
+
+.icon-circle:before {
+  content: "\e0d5";
+}
+
+.icon-ring:before {
+  content: "\e0d6";
+}
+
+.icon-opencloud:before {
+  content: "\e0d7";
+}
+
+.icon-barchart:before {
+  content: "\e0d8";
+}
+
+.icon-battery4:before {
+  content: "\e0d9";
+}
+
+.icon-battery3:before {
+  content: "\e0da";
+}
+
+.icon-battery2:before {
+  content: "\e0db";
+}
+
+.icon-battery1:before {
+  content: "\e0dc";
+}
+
+.icon-battery0:before {
+  content: "\e0dd";
+}
+
+.icon-arrowlocation:before {
+  content: "\e0de";
+}
+
+.icon-starhalf:before {
+  content: "\e0df";
+}
+
+.icon-openstar:before {
+  content: "\e0e0";
+}
+
+.icon-opensquare:before {
+  content: "\e0e1";
+}
+
+.icon-signin:before {
+  content: "\e0e2";
+}
+
+.icon-userremove:before {
+  content: "\e0e3";
+}
+
+.icon-usersubtract:before {
+  content: "\e0e4";
+}
+
+.icon-useradd:before {
+  content: "\e0e5";
+}
+
+.icon-rsssquare:before {
+  content: "\e0e6";
+}
+
+.icon-rss:before {
+  content: "\e0e7";
+}
+
+.icon-openmail:before {
+  content: "\e0e8";
+}
+
+.icon-chevrondownsquare:before {
+  content: "\e0e9";
+}
+
+.icon-chevronleftsquare:before {
+  content: "\e0ea";
+}
+
+.icon-chevronrightsquare:before {
+  content: "\e0eb";
+}
+
+.icon-chevronupsquare:before {
+  content: "\e0ec";
+}
+
+.icon-chevrondowncircle:before {
+  content: "\e0ed";
+}
+
+.icon-chevronleftcircle:before {
+  content: "\e0ee";
+}
+
+.icon-chevronrightcircle:before {
+  content: "\e0ef";
+}
+
+.icon-chevronupcircle:before {
+  content: "\e0f0";
+}
+
+.icon-chevrondown:before {
+  content: "\e0f1";
+}
+
+.icon-chevronleft:before {
+  content: "\e0f2";
+}
+
+.icon-chevronright:before {
+  content: "\e0f3";
+}
+
+.icon-chevronup:before {
+  content: "\e0f4";
+}
+
+.icon-android:before {
+  content: "\e0f5";
+}
+
+.icon-apple:before {
+  content: "\e0f6";
+}
+
+.icon-google:before {
+  content: "\e0f7";
+}
+
+.icon-linkedin:before {
+  content: "\e0f8";
+}
+
+.icon-facebook:before {
+  content: "\e0f9";
+}
+
+.icon-twitter:before {
+  content: "\e0fa";
+}
+
+.icon-bullseye:before {
+  content: "\e0fb";
+}
+
+.icon-cloud:before {
+  content: "\e0fc";
+}
+
+.icon-expand:before {
+  content: "\e0fd";
+}
+
+.icon-heartcrossout:before {
+  content: "\e0fe";
+}
+
+.icon-diagnose:before {
+  content: "\e0ff";
+}
+
+.icon-failover:before {
+  content: "\e100";
+}
+
+.icon-healthcheck:before {
+  content: "\e101";
+}
+
+.icon-systemcheck:before {
+  content: "\e102";
+}
+
+.icon-unjoin:before {
+  content: "\e103";
+}
+
+.icon-reboot:before {
+  content: "\e104";
+}
+
+.icon-activate:before {
+  content: "\e105";
+}
+
+.icon-dynamicaccountgroup:before {
+  content: "\e106";
+}
+
+.icon-dynamicassetgroup:before {
+  content: "\e107";
+}
+
+.icon-dynamic:before {
+  content: "\e108";
+}
+
+.icon-hybrid:before {
+  content: "\e10b";
+}
+
+.icon-sconnect:before {
+  content: "\e10c";
+}
+
+.icon-keyboard:before {
+  content: "\e10d";
+}
+
+.icon-credit-card:before {
+  content: "\e10e";
+}
+
+.icon-content-alert:before {
+  content: "\e10f";
+}
+
+.icon-accessrequest:before {
+  content: "\e110";
+}
+
+.icon-accesscertification:before {
+  content: "\e111";
+}
+
+.icon-governance:before {
+  content: "\e112";
+}
+
+.icon-clock:before {
+  content: "\e113";
+}
+
+.icon-lan:before {
+  content: "\e114";
+}
+
+.icon-sankey:before {
+  content: "\e115";
+}
+
+.icon-fis:before {
+  content: "\e116";
+}
+
+.icon-date:before {
+  content: "\e117";
+}
+
+.icon-windows:before {
+  content: "\e118";
+}
+
+.icon-oi-circle:before {
+  content: "\e119";
+}
+
+.icon-oi-stacked:before {
+  content: "\e11a";
+}
+
+.icon-oi-horizontal:before {
+  content: "\e11b";
+}
+
+.icon-applications:before {
+  content: "\e11c";
+}
+
+.icon-building:before {
+  content: "\e11d";
+}
+
+.icon-hashtag:before {
+  content: "\e11e";
+}
+
+.icon-safeguard-authentication-services:before {
+  content: "\e11f";
+}
+
+.icon-safeguard-sessions:before {
+  content: "\e120";
+}
+
+.icon-safeguard-passwords:before {
+  content: "\e121";
+}
+
+.icon-safeguard-sudo:before {
+  content: "\e122";
+}
+
+.icon-safeguard-player:before {
+  content: "\e123";
+}
+
+.icon-safeguard-search-portal:before {
+  content: "\e124";
+}
+
+.icon-copy-user:before {
+  content: "\e125";
+}
+
+.icon-copy-password:before {
+  content: "\e126";
+}
+
+.icon-isolate:before {
+  content: "\e127";
+}
+
+.icon-integrate:before {
+  content: "\e128";
+}
+
+.icon-remove-user:before {
+  content: "\e129";
+}
+
+.icon-appliance:before {
+  content: "\e12a";
+}
+
+.icon-rejected-approval:before {
+  content: "\e12b";
+}
+
+.icon-draghandles:before {
+  content: "\e12c";
+}
+
+.icon-workflow:before {
+  content: "\e12d";
+}
+
+.icon-table:before {
+  content: "\e12e";
+}
+
+.icon-unlink:before {
+  content: "\e12f";
+}
+
+.icon-job-queue:before {
+  content: "\e130";
+}
+
+.icon-external-link:before {
+  content: "\e131";
+}
+
+.icon-cart:before {
+  content: "\e132";
+}
+
+.icon-addasset:before {
+  content: "\e133";
+}
+
+.icon-checkpoint-logo:before {
+  content: "\e134";
+}
+
+.icon-suse-logo:before {
+  content: "\e135";
+}
+
+.icon-sonicwall-logo:before {
+  content: "\e136";
+}
+
+.icon-sap-logo:before {
+  content: "\e137";
+}
+
+.icon-paloaltonetworks-logo:before {
+  content: "\e138";
+}
+
+.icon-linux-logo:before {
+  content: "\e139";
+}
+
+.icon-openldap-logo:before {
+  content: "\e13a";
+}
+
+.icon-junos-logo:before {
+  content: "\e13b";
+}
+
+.icon-fortinet-logo:before {
+  content: "\e13c";
+}
+
+.icon-f5-logo:before {
+  content: "\e13d";
+}
+
+.icon-vmware-logo:before {
+  content: "\e13e";
+}
+
+.icon-cisco-logo:before {
+  content: "\e13f";
+}
+
+.icon-aix-logo:before {
+  content: "\e140";
+}
+
+.icon-catech-logo:before {
+  content: "\e141";
+}
+
+.icon-ubuntu-logo:before {
+  content: "\e142";
+}
+
+.icon-redhat-logo:before {
+  content: "\e143";
+}
+
+.icon-postgresql-logo:before {
+  content: "\e144";
+}
+
+.icon-oracle-logo:before {
+  content: "\e145";
+}
+
+.icon-mysql-logo:before {
+  content: "\e146";
+}
+
+.icon-mongodb-logo:before {
+  content: "\e147";
+}
+
+.icon-dell-logo:before {
+  content: "\e148";
+}
+
+.icon-fedora-logo:before {
+  content: "\e149";
+}
+
+.icon-ibm-logo:before {
+  content: "\e14a";
+}
+
+.icon-hp-logo:before {
+  content: "\e14b";
+}
+
+.icon-freebsd-logo:before {
+  content: "\e14c";
+}
+
+.icon-debian-logo:before {
+  content: "\e14d";
+}
+
+.icon-centos-logo:before {
+  content: "\e14e";
+}
+
+.icon-aws-logo:before {
+  content: "\e14f";
+}
+
+.icon-safeguard-starling-remote-access:before {
+  content: "\e150";
+}
+
+.icon-waiting:before {
+  content: "\e151";
+}
+
+.icon-lab:before {
+  content: "\e152";
+}
+
+.icon-bell:before {
+  content: "\e153";
+}
+
+.icon-cloud-assistant:before {
+  content: "\e154";
+}
+
+.icon-active-roles:before {
+  content: "\e155";
+}
+
+.icon-password-manager:before {
+  content: "\e156";
+}
+
+.icon-identity-manager:before {
+  content: "\e157";
+}
+
+.icon-directory:before {
+  content: "\e158";
+}
+
+.icon-directory-ad:before {
+  content: "\e159";
+}
+
+.icon-jump-last:before {
+  content: "\e15a";
+}
+
+.icon-jump-first:before {
+  content: "\e15b";
+}
+
+.icon-azure:before {
+  content: "\e15c";
+}
+
+.icon-hourglass-top:before {
+  content: "\e15d";
+}
+
+.icon-error-circle:before {
+  content: "\e15e";
+}
+
+.icon-document-add:before {
+  content: "\e15f";
+}
+
+.icon-server-add:before {
+  content: "\e160";
+}
+
+.icon-office365-logo:before {
+  content: "\e161";
+}
+
+.icon-mfa-otp:before {
+  content: "\e162";
+}
+
+.icon-safeguard-scalus:before {
+  content: "\e163";
+}
+
+.icon-community-scalus:before {
+  content: "\e164";
+}
+
+.icon-folder-tree:before {
+  content: "\e165";
+}
+
+.icon-document:before {
+  content: "\e166";
+}
+
+.icon-powerbi-logo:before {
+  content: "\e167";
+}
+
+.icon-privilege-manager:before {
+  content: "\e168";
+}
+
+.icon-mfa-protect:before {
+  content: "\e169";
+}
+
+.icon-mfa-fido:before {
+  content: "\e16a";
+}
+
+.icon-google-secrets-logo:before {
+  content: "\e16b";
+}
+
+.icon-jenkins-secrets-logo:before {
+  content: "\e16c";
+}
+
+.icon-kubernetes-secrets-logo:before {
+  content: "\e16d";
+}
+
+.icon-rdp-session:before {
+  content: "\e16e";
+}
+
+.icon-ssh-session:before {
+  content: "\e16f";
+}
+
+.icon-api-key:before {
+  content: "\e170";
+}
+
+.icon-ssh-key:before {
+  content: "\e171";
+}
+
+.icon-in-progress:before {
+  content: "\e172";
+}
+
+.eui-icon, eui-icon {
+  vertical-align: top;
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/MaterialIcons//MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url("../../assets/MaterialIcons//MaterialIcons-Regular.woff2") format("woff2"), url("../../assets/MaterialIcons//MaterialIcons-Regular.woff") format("woff"), url("../../assets/MaterialIcons//MaterialIcons-Regular.ttf") format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-SemiboldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../assets/Source_Sans_Pro/SourceSansPro-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.legalText {
+  font-size: 12px;
+}
+
+.bodySmall {
+  font-size: 14px;
+}
+
+.subtitle2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+button.mat-mdc-raised-button, button.mat-mdc-button, button.mat-mdc-outlined-button {
+  font-weight: 600;
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/*--- -------------------------------------------*/
+/*--- Fixes for Angular Material issues / bugs --*/
+/*--- -------------------------------------------*/
+/*-- fixing broken fixed height and width of datepicker popup --*/
+.mat-datepicker-popup .mat-datepicker-content .mat-calendar {
+  width: auto;
+  height: auto;
+}
+
+/*-- space between <mat-chip> and <eui-icon> --*/
+.mat-mdc-chip .eui-icon {
+  padding: 0 5px;
+}
+
+body .mat-expansion-indicator {
+  height: 24px;
+}
+body .mat-expansion-panel-header.mat-expanded {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+body .mat-expansion-panel-header-description {
+  font-weight: 400;
+}
+body .mat-expansion-panel-body {
+  padding: 24px;
+}
+body .mat-mdc-menu-item,
+body .mat-mdc-option {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+body .mat-mdc-checkbox .mdc-form-field,
+body .mat-mdc-radio-button .mdc-form-field {
+  align-items: flex-start;
+}
+body .mat-mdc-checkbox label,
+body .mat-mdc-radio-button label {
+  margin-top: 8px;
+}
+body .mat-mdc-icon-button .eui-icon {
+  font-size: 20px;
+  line-height: 24px;
+}
+body .mat-mdc-icon-button .mat-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+body .mat-mdc-button-base .mdc-button__label {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+body .mat-button-toggle-group {
+  font-size: 14px;
+  font-weight: 600;
+}
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__content {
+  padding: 20px;
+}
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__title + .mdc-dialog__content,
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__header + .mdc-dialog__content {
+  padding-top: 0;
+}
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__title {
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0 20px 15px;
+}
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__actions {
+  padding: 0 20px 20px;
+}
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__actions .mat-button-base + .mat-button-base,
+body .mdc-dialog.mat-mdc-dialog-container .mdc-dialog__actions .mat-mdc-button-base + .mat-mdc-button-base {
+  margin-left: 16px;
+}
+body .mat-mdc-paginator .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix {
+  padding: 7px 0;
+}
+body .mat-mdc-paginator .mat-mdc-form-field-infix {
+  min-height: 36px;
+}
+body .mdc-card__actions {
+  padding: 16px;
+}
+body .mat-mdc-tab-disabled {
+  cursor: default;
+}
+body .mat-mdc-slide-toggle .mdc-switch.mdc-switch--unselected:enabled .mdc-switch__icon {
+  display: none;
+}
+body .mdc-evolution-chip-set__chips {
+  row-gap: 4px;
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+.mat-mdc-form-field .mat-mdc-chip.mat-mdc-standard-chip {
+  --mat-chip-container-height: 24px;
+}
+.mat-mdc-form-field .mdc-evolution-chip-set .mdc-evolution-chip {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mat-mdc-form-field .mat-mdc-select-arrow-wrapper {
+  height: 22px;
+}
+.mat-mdc-form-field .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix {
+  padding-top: 8px;
+}
+.mat-mdc-form-field .mat-mdc-form-field-icon-prefix .eui-icon,
+.mat-mdc-form-field .mat-mdc-form-field-icon-suffix .eui-icon {
+  font-size: 20px;
+  line-height: 24px;
+}
+.mat-mdc-form-field .mat-mdc-form-field-icon-prefix .mat-icon,
+.mat-mdc-form-field .mat-mdc-form-field-icon-suffix .mat-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+.mat-mdc-form-field .mat-mdc-form-field-icon-prefix > .mat-icon,
+.mat-mdc-form-field .mat-mdc-form-field-icon-suffix > .mat-icon {
+  padding: 8px;
+}
+.mat-mdc-form-field .mat-mdc-form-field-icon-prefix .eui-icon[matPrefix],
+.mat-mdc-form-field .mat-mdc-form-field-icon-suffix .eui-icon[matSuffix] {
+  width: 24px;
+  margin: 6px;
+  text-align: center;
+}
+.mat-mdc-form-field .mat-mdc-form-field-subscript-wrapper {
+  min-height: 20px;
+}
+.mat-mdc-form-field .mat-mdc-form-field-subscript-wrapper::before {
+  content: inherit;
+}
+.mat-mdc-form-field .mat-mdc-form-field-hint-wrapper,
+.mat-mdc-form-field .mat-mdc-form-field-error-wrapper {
+  padding: 0;
+  position: static;
+  line-height: 16px;
+}
+.mat-mdc-form-field.eui-input--no-margin {
+  margin-bottom: 0;
+}
+.mat-mdc-form-field.eui-input--no-margin .mat-mdc-form-field-subscript-wrapper {
+  min-height: 0;
+}
+
+.eui-form-field {
+  display: inline-block;
+  width: 100%;
+}
+.eui-form-field .mat-mdc-form-field {
+  width: 100%;
+}
+.eui-form-field .eui-form-field-subscript::before {
+  content: inherit;
+}
+.eui-form-field .mat-mdc-form-field-icon-prefix .mat-icon[matPrefix],
+.eui-form-field .mat-mdc-form-field-icon-suffix .mat-icon[matSuffix] {
+  margin: 8px;
+}
+
+label.eui-label,
+.eui-label > label {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+label.eui-label.eui-label--error,
+label.eui-label .eui-label-required-indicator,
+.eui-label > label.eui-label--error,
+.eui-label > label .eui-label-required-indicator {
+  color: #db2534;
+}
+label.eui-label.eui-label--disabled,
+.eui-label > label.eui-label--disabled {
+  opacity: 0.4;
+}
+
+body.eui-dark-theme label.eui-label.eui-label--error,
+body.eui-dark-theme label.eui-label .eui-label-required-indicator,
+body.eui-dark-theme .eui-label > label.eui-label--error,
+body.eui-dark-theme .eui-label > label .eui-label-required-indicator,
+body.eui-contrast-theme label.eui-label.eui-label--error,
+body.eui-contrast-theme label.eui-label .eui-label-required-indicator,
+body.eui-contrast-theme .eui-label > label.eui-label--error,
+body.eui-contrast-theme .eui-label > label .eui-label-required-indicator {
+  color: #f29d99;
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover,
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover,
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover .eui-badge-content {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary .eui-badge-content {
+  background-image: linear-gradient(rgba(138, 203, 227, 0.04) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent .eui-badge-content {
+  background-image: linear-gradient(rgba(237, 190, 142, 0.04) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus,
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus,
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus .eui-badge-content {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary .eui-badge-content {
+  background-image: linear-gradient(rgba(138, 203, 227, 0.12) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent .eui-badge-content, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent .eui-badge-content,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent .eui-badge-content {
+  background-image: linear-gradient(rgba(237, 190, 142, 0.12) 0 0);
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon {
+  background-image: none;
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus {
+  color: #edbe8e;
+  background-image: none;
+}
+.eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover.eui-clickable--primary, .eui-dark-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover.eui-clickable--primary,
+.eui-contrast-theme .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus.eui-clickable--primary {
+  color: #8acbe3;
+}
+
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover,
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover,
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover .eui-badge-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.04) 0 0);
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--primary .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--primary .eui-badge-content {
+  background-image: linear-gradient(rgba(10, 150, 209, 0.04) 0 0);
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):hover.eui-clickable--accent .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:hover.eui-clickable--accent .eui-badge-content {
+  background-image: linear-gradient(rgba(227, 106, 0, 0.04) 0 0);
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus,
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus,
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus .eui-badge-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.12) 0 0);
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--primary .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--primary .eui-badge-content {
+  background-image: linear-gradient(rgba(10, 150, 209, 0.12) 0 0);
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled):focus.eui-clickable--accent .eui-badge-content, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-badge:focus.eui-clickable--accent .eui-badge-content {
+  background-image: linear-gradient(rgba(227, 106, 0, 0.12) 0 0);
+}
+
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon {
+  background-image: none;
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus {
+  color: #e36a00;
+  background-image: none;
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:hover.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).eui-icon:focus.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:hover.eui-clickable--primary, .eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled).mat-icon:focus.eui-clickable--primary {
+  color: #0a96d1;
+}
+
+.eui-clickable {
+  cursor: default;
+  outline: 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: 400;
+  border: none;
+}
+.eui-clickable.eui-clickable--disabled {
+  opacity: 0.4;
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled) {
+  cursor: pointer;
+}
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled) .eui-clickable.eui-clickable--off,
+.eui-clickable:not(.eui-clickable--off):not(.eui-clickable--disabled) .eui-clickable.eui-clickable--disabled {
+  cursor: pointer;
+}
+.eui-clickable:not(.eui-icon):not(.mat-icon) {
+  font-family: "Source Sans Pro", "Helvetica Neue", sans-serif;
+}
+
+.eui-clickable--off .eui-clickable,
+.eui-clickable--disabled .eui-clickable {
+  background-image: none !important;
+  cursor: default !important;
+}
+
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+/**
+ * Copyright 2025 One Identity LLC.
+ * ALL RIGHTS RESERVED.
+ */
+.bg-iris-blue {
+  background-color: #0a96d1;
+}
+
+.bg-iris-tint {
+  background-color: #8acbe3;
+}
+
+.bg-iris-shade {
+  background-color: #016b91;
+}
+
+.bg-iris-pastel {
+  background-color: #cbe8f2;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-asher-gray {
+  background-color: #f9fbfc;
+}
+
+.bg-gunmetal {
+  background-color: #2f3233;
+}
+
+.bg-phoenix-red {
+  background-color: #db2534;
+}
+
+.bg-phoenix-tint {
+  background-color: #f29d99;
+}
+
+.bg-phoenix-shade {
+  background-color: #570000;
+}
+
+.bg-phoenix-pastel {
+  background-color: #f3c8c8;
+}
+
+.bg-corbin-orange {
+  background-color: #e36a00;
+}
+
+.bg-corbin-tint {
+  background-color: #edbe8e;
+}
+
+.bg-corbin-shade {
+  background-color: #592d00;
+}
+
+.bg-corbin-pastel {
+  background-color: #f7e4d0;
+}
+
+.bg-aspen-green {
+  background-color: #4ba803;
+}
+
+.bg-aspen-tint {
+  background-color: #99c478;
+}
+
+.bg-aspen-shade {
+  background-color: #1c4000;
+}
+
+.bg-aspen-pastel {
+  background-color: #cee3bf;
+}
+
+.bg-tiki-sunrise {
+  background-color: #ead200;
+}
+
+.bg-tiki-tint {
+  background-color: #f2e991;
+}
+
+.bg-tiki-shade {
+  background-color: #948500;
+}
+
+.bg-tiki-pastel {
+  background-color: #f7f3d0;
+}
+
+.bg-maui-sunset {
+  background-color: #b400e5;
+}
+
+.bg-maui-tint {
+  background-color: #d98eed;
+}
+
+.bg-maui-shade {
+  background-color: #460059;
+}
+
+.bg-maui-pastel {
+  background-color: #efd0f7;
+}
+
+.bg-azalea-pink {
+  background-color: #f800b6;
+}
+
+.bg-azalea-tint {
+  background-color: #fa96df;
+}
+
+.bg-azalea-shade {
+  background-color: #590041;
+}
+
+.bg-azalea-pastel {
+  background-color: #fcd4f2;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-black-3 {
+  background-color: #2f3233;
+}
+
+.bg-black-4 {
+  background-color: #444647;
+}
+
+.bg-black-6 {
+  background-color: #616566;
+}
+
+.bg-black-7 {
+  background-color: #797e80;
+}
+
+.bg-black-9 {
+  background-color: #919799;
+}
+
+.bg-black-b {
+  background-color: #aab0b3;
+}
+
+.bg-black-c {
+  background-color: #c4cacc;
+}
+
+.text-iris-blue {
+  color: #0a96d1;
+}
+
+.text-iris-tint {
+  color: #8acbe3;
+}
+
+.text-iris-shade {
+  color: #016b91;
+}
+
+.text-iris-pastel {
+  color: #cbe8f2;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-asher-gray {
+  color: #f9fbfc;
+}
+
+.text-gunmetal {
+  color: #2f3233;
+}
+
+.text-phoenix-red {
+  color: #db2534;
+}
+
+.text-phoenix-tint {
+  color: #f29d99;
+}
+
+.text-phoenix-shade {
+  color: #570000;
+}
+
+.text-phoenix-pastel {
+  color: #f3c8c8;
+}
+
+.text-corbin-orange {
+  color: #e36a00;
+}
+
+.text-corbin-tint {
+  color: #edbe8e;
+}
+
+.text-corbin-shade {
+  color: #592d00;
+}
+
+.text-corbin-pastel {
+  color: #f7e4d0;
+}
+
+.text-aspen-green {
+  color: #4ba803;
+}
+
+.text-aspen-tint {
+  color: #99c478;
+}
+
+.text-aspen-shade {
+  color: #1c4000;
+}
+
+.text-aspen-pastel {
+  color: #cee3bf;
+}
+
+.text-tiki-sunrise {
+  color: #ead200;
+}
+
+.text-tiki-tint {
+  color: #f2e991;
+}
+
+.text-tiki-shade {
+  color: #948500;
+}
+
+.text-tiki-pastel {
+  color: #f7f3d0;
+}
+
+.text-maui-sunset {
+  color: #b400e5;
+}
+
+.text-maui-tint {
+  color: #d98eed;
+}
+
+.text-maui-shade {
+  color: #460059;
+}
+
+.text-maui-pastel {
+  color: #efd0f7;
+}
+
+.text-azalea-pink {
+  color: #f800b6;
+}
+
+.text-azalea-tint {
+  color: #fa96df;
+}
+
+.text-azalea-shade {
+  color: #590041;
+}
+
+.text-azalea-pastel {
+  color: #fcd4f2;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-black-3 {
+  color: #2f3233;
+}
+
+.text-black-4 {
+  color: #444647;
+}
+
+.text-black-6 {
+  color: #616566;
+}
+
+.text-black-7 {
+  color: #797e80;
+}
+
+.text-black-9 {
+  color: #919799;
+}
+
+.text-black-b {
+  color: #aab0b3;
+}
+
+.text-black-c {
+  color: #c4cacc;
+}
+
+.bg-gray-0 {
+  background-color: #ffffff;
+}
+
+.bg-gray-2 {
+  background-color: #f9fbfc;
+}
+
+.bg-gray-5 {
+  background-color: #f2f6f7;
+}
+
+.bg-gray-10 {
+  background-color: #dfe4e6;
+}
+
+.bg-gray-15 {
+  background-color: #d0d7d9;
+}
+
+.bg-gray-20 {
+  background-color: #c4cacc;
+}
+
+.bg-gray-30 {
+  background-color: #aab0b3;
+}
+
+.bg-gray-40 {
+  background-color: #919799;
+}
+
+.bg-gray-50 {
+  background-color: #797e80;
+}
+
+.bg-gray-60 {
+  background-color: #616566;
+}
+
+.bg-gray-70 {
+  background-color: #444647;
+}
+
+.bg-gray-80 {
+  background-color: #2f3233;
+}
+
+.bg-gray-85 {
+  background-color: #232626;
+}
+
+.bg-gray-100 {
+  background-color: #000000;
+}
+
+.bg-blue-10 {
+  background-color: #f2fcff;
+}
+
+.bg-blue-15 {
+  background-color: #e1f4fa;
+}
+
+.bg-blue-20 {
+  background-color: #cbe8f2;
+}
+
+.bg-blue-40 {
+  background-color: #8acbe3;
+}
+
+.bg-blue-60 {
+  background-color: #0a96d1;
+}
+
+.bg-blue-80 {
+  background-color: #016b91;
+}
+
+.bg-blue-85 {
+  background-color: #004e6b;
+}
+
+.bg-blue-90 {
+  background-color: #00384d;
+}
+
+.bg-green-10 {
+  background-color: #f6fff0;
+}
+
+.bg-green-15 {
+  background-color: #e7f8db;
+}
+
+.bg-green-20 {
+  background-color: #cee3bf;
+}
+
+.bg-green-40 {
+  background-color: #99c478;
+}
+
+.bg-green-60 {
+  background-color: #4ba803;
+}
+
+.bg-green-80 {
+  background-color: #327301;
+}
+
+.bg-green-85 {
+  background-color: #255400;
+}
+
+.bg-green-90 {
+  background-color: #1c4000;
+}
+
+.bg-orange-10 {
+  background-color: #fff9f2;
+}
+
+.bg-orange-15 {
+  background-color: #fbefe2;
+}
+
+.bg-orange-20 {
+  background-color: #f7e4d0;
+}
+
+.bg-orange-40 {
+  background-color: #edbe8e;
+}
+
+.bg-orange-60 {
+  background-color: #e36a00;
+}
+
+.bg-orange-80 {
+  background-color: #a65300;
+}
+
+.bg-orange-85 {
+  background-color: #7a3e00;
+}
+
+.bg-orange-90 {
+  background-color: #592d00;
+}
+
+.bg-pink-10 {
+  background-color: #fff7fd;
+}
+
+.bg-pink-15 {
+  background-color: #ffe7f9;
+}
+
+.bg-pink-20 {
+  background-color: #fcd4f2;
+}
+
+.bg-pink-40 {
+  background-color: #fa96df;
+}
+
+.bg-pink-60 {
+  background-color: #f800b6;
+}
+
+.bg-pink-80 {
+  background-color: #a8007b;
+}
+
+.bg-pink-85 {
+  background-color: #850061;
+}
+
+.bg-pink-90 {
+  background-color: #590041;
+}
+
+.bg-purple-10 {
+  background-color: #fdf7ff;
+}
+
+.bg-purple-15 {
+  background-color: #f7e6fb;
+}
+
+.bg-purple-20 {
+  background-color: #efd0f7;
+}
+
+.bg-purple-40 {
+  background-color: #d98eed;
+}
+
+.bg-purple-60 {
+  background-color: #b400e5;
+}
+
+.bg-purple-80 {
+  background-color: #8200a6;
+}
+
+.bg-purple-85 {
+  background-color: #640080;
+}
+
+.bg-purple-90 {
+  background-color: #460059;
+}
+
+.bg-red-10 {
+  background-color: #fff5f5;
+}
+
+.bg-red-15 {
+  background-color: #fbe3e3;
+}
+
+.bg-red-20 {
+  background-color: #f3c8c8;
+}
+
+.bg-red-40 {
+  background-color: #f29d99;
+}
+
+.bg-red-60 {
+  background-color: #db2534;
+}
+
+.bg-red-80 {
+  background-color: #990000;
+}
+
+.bg-red-85 {
+  background-color: #7a0000;
+}
+
+.bg-red-90 {
+  background-color: #570000;
+}
+
+.bg-yellow-10 {
+  background-color: #fffdf0;
+}
+
+.bg-yellow-15 {
+  background-color: #fbf9e3;
+}
+
+.bg-yellow-20 {
+  background-color: #f7f3d0;
+}
+
+.bg-yellow-40 {
+  background-color: #f2e991;
+}
+
+.bg-yellow-60 {
+  background-color: #ead200;
+}
+
+.bg-yellow-80 {
+  background-color: #948500;
+}
+
+.bg-yellow-85 {
+  background-color: #615600;
+}
+
+.bg-yellow-90 {
+  background-color: #403900;
+}
+
+.text-gray-0 {
+  color: #ffffff;
+}
+
+.text-gray-2 {
+  color: #f9fbfc;
+}
+
+.text-gray-5 {
+  color: #f2f6f7;
+}
+
+.text-gray-10 {
+  color: #dfe4e6;
+}
+
+.text-gray-15 {
+  color: #d0d7d9;
+}
+
+.text-gray-20 {
+  color: #c4cacc;
+}
+
+.text-gray-30 {
+  color: #aab0b3;
+}
+
+.text-gray-40 {
+  color: #919799;
+}
+
+.text-gray-50 {
+  color: #797e80;
+}
+
+.text-gray-60 {
+  color: #616566;
+}
+
+.text-gray-70 {
+  color: #444647;
+}
+
+.text-gray-80 {
+  color: #2f3233;
+}
+
+.text-gray-85 {
+  color: #232626;
+}
+
+.text-gray-100 {
+  color: #000000;
+}
+
+.text-blue-10 {
+  color: #f2fcff;
+}
+
+.text-blue-15 {
+  color: #e1f4fa;
+}
+
+.text-blue-20 {
+  color: #cbe8f2;
+}
+
+.text-blue-40 {
+  color: #8acbe3;
+}
+
+.text-blue-60 {
+  color: #0a96d1;
+}
+
+.text-blue-80 {
+  color: #016b91;
+}
+
+.text-blue-85 {
+  color: #004e6b;
+}
+
+.text-blue-90 {
+  color: #00384d;
+}
+
+.text-green-10 {
+  color: #f6fff0;
+}
+
+.text-green-15 {
+  color: #e7f8db;
+}
+
+.text-green-20 {
+  color: #cee3bf;
+}
+
+.text-green-40 {
+  color: #99c478;
+}
+
+.text-green-60 {
+  color: #4ba803;
+}
+
+.text-green-80 {
+  color: #327301;
+}
+
+.text-green-85 {
+  color: #255400;
+}
+
+.text-green-90 {
+  color: #1c4000;
+}
+
+.text-orange-10 {
+  color: #fff9f2;
+}
+
+.text-orange-15 {
+  color: #fbefe2;
+}
+
+.text-orange-20 {
+  color: #f7e4d0;
+}
+
+.text-orange-40 {
+  color: #edbe8e;
+}
+
+.text-orange-60 {
+  color: #e36a00;
+}
+
+.text-orange-80 {
+  color: #a65300;
+}
+
+.text-orange-85 {
+  color: #7a3e00;
+}
+
+.text-orange-90 {
+  color: #592d00;
+}
+
+.text-pink-10 {
+  color: #fff7fd;
+}
+
+.text-pink-15 {
+  color: #ffe7f9;
+}
+
+.text-pink-20 {
+  color: #fcd4f2;
+}
+
+.text-pink-40 {
+  color: #fa96df;
+}
+
+.text-pink-60 {
+  color: #f800b6;
+}
+
+.text-pink-80 {
+  color: #a8007b;
+}
+
+.text-pink-85 {
+  color: #850061;
+}
+
+.text-pink-90 {
+  color: #590041;
+}
+
+.text-purple-10 {
+  color: #fdf7ff;
+}
+
+.text-purple-15 {
+  color: #f7e6fb;
+}
+
+.text-purple-20 {
+  color: #efd0f7;
+}
+
+.text-purple-40 {
+  color: #d98eed;
+}
+
+.text-purple-60 {
+  color: #b400e5;
+}
+
+.text-purple-80 {
+  color: #8200a6;
+}
+
+.text-purple-85 {
+  color: #640080;
+}
+
+.text-purple-90 {
+  color: #460059;
+}
+
+.text-red-10 {
+  color: #fff5f5;
+}
+
+.text-red-15 {
+  color: #fbe3e3;
+}
+
+.text-red-20 {
+  color: #f3c8c8;
+}
+
+.text-red-40 {
+  color: #f29d99;
+}
+
+.text-red-60 {
+  color: #db2534;
+}
+
+.text-red-80 {
+  color: #990000;
+}
+
+.text-red-85 {
+  color: #7a0000;
+}
+
+.text-red-90 {
+  color: #570000;
+}
+
+.text-yellow-10 {
+  color: #fffdf0;
+}
+
+.text-yellow-15 {
+  color: #fbf9e3;
+}
+
+.text-yellow-20 {
+  color: #f7f3d0;
+}
+
+.text-yellow-40 {
+  color: #f2e991;
+}
+
+.text-yellow-60 {
+  color: #ead200;
+}
+
+.text-yellow-80 {
+  color: #948500;
+}
+
+.text-yellow-85 {
+  color: #615600;
+}
+
+.text-yellow-90 {
+  color: #403900;
+}
+
+.eui-hidden {
+  display: none !important;
+}
+
+body.company-theme .imx-loginPage {
+  background-color: #E3000F;
+  color: #FFFFFF;
+}
+body.company-theme .imx-card-header {
+  background-color: #BA000C;
+  color: #FFFFFF;
+}
+
+:root {
+  --brand-white: #FFFFFF;
+  --brand-grey-light: #DDE1E5;
+  --brand-grey-medium: #A8B7C4;
+  --brand-grey-dark: #B4B5B7;
+  --brand-sand: #E2D9B5;
+}
+
+/*# sourceMappingURL=custom-theme.css.map */

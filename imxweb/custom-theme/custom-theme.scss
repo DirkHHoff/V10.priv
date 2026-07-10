@@ -2,41 +2,139 @@ $theme_font_family: 'Source Sans Pro, "Helvetica Neue", sans-serif' !default;
 
 @use 'sass:math';
 @use '@angular/material' as mat;
-@use '@elemental-ui/core/src/styles/_palette' as eui_old;
-@use '@elemental-ui/core/src/styles/theming/theme' as theme;
 @use '../shared/scss/base/theme' as imx-theme;
-
 @use '@elemental-ui/core/src/styles/functions/to_number' as to_number;
-
 @use '@elemental-ui/core/src/styles/reset' as reset;
 @use '@elemental-ui/core/src/styles/billboard' as billboard;
 @use '@elemental-ui/core/src/styles/cadence' as cadence;
 @use '@elemental-ui/core/src/styles/material_icons' as material_icons;
 @use '@elemental-ui/core/src/styles/source_sans_pro' as source_sans_pro;
-@use '@elemental-ui/core/src/styles/palette' as palette;
 @use '@elemental-ui/core/src/styles/typography' as typography;
 @use '@elemental-ui/core/src/styles/material_fixes' as material_fixes;
 @use '@elemental-ui/core/src/styles/inputs' as inputs;
 @use '@elemental-ui/core/src/styles/clickables' as clickables;
 @use '@elemental-ui/core/src/styles/common' as common;
 
-$custom-typography: mat.m2-define-typography-config($font-family: $theme_font_family,
-    $button: mat.m2-define-typography-level(14px, 14px, 400),
-  );
+// ------------------------------------------------------------------
+// Eigene Markenpaletten (aus #E3000F / #003452 / #F7DA00 generiert)
+// ------------------------------------------------------------------
+
+$brand-primary-palette: (
+  50: #F2858C, 100: #ED5E68, 200: #EA424D, 300: #E61F2C,
+  400: #E50F1D, 500: #E3000F, 600: #D5000E, 700: #C8000D,
+  800: #BA000C, 900: #AD000B,
+  A100: #EDA6AB, A200: #E88C93, A400: #E3737A, A700: #DE5962,
+  contrast: (
+    50: #000000, 100: #FFFFFF, 200: #FFFFFF, 300: #FFFFFF,
+    400: #FFFFFF, 500: #FFFFFF, 600: #FFFFFF, 700: #FFFFFF,
+    800: #FFFFFF, 900: #FFFFFF,
+    A100: #000000, A200: #FFFFFF, A400: #FFFFFF, A700: #FFFFFF,
+  )
+);
+
+$brand-accent-palette: (
+  50: #859EAC, 100: #5E7F92, 200: #42697F, 300: #1F4C67,
+  400: #0F405C, 500: #003452, 600: #00314D, 700: #002E48,
+  800: #002B43, 900: #00283E,
+  A100: #A6B6C0, A200: #8CA1AE, A400: #738D9B, A700: #597889,
+  contrast: (
+    50: #000000, 100: #FFFFFF, 200: #FFFFFF, 300: #FFFFFF,
+    400: #FFFFFF, 500: #FFFFFF, 600: #FFFFFF, 700: #FFFFFF,
+    800: #FFFFFF, 900: #FFFFFF,
+    A100: #000000, A200: #FFFFFF, A400: #FFFFFF, A700: #FFFFFF,
+  )
+);
+
+$brand-warn-palette: (
+  50: #FBED85, 100: #FAE85E, 200: #F9E442, 300: #F8DE1F,
+  400: #F7DC0F, 500: #F7DA00, 600: #E8CD00, 700: #D9C000,
+  800: #CBB300, 900: #BCA600,
+  A100: #F3EAA6, A200: #F0E48C, A400: #EDDF73, A700: #EAD959,
+  contrast: (
+    50: #000000, 100: #000000, 200: #000000, 300: #000000,
+    400: #000000, 500: #000000, 600: #000000, 700: #000000,
+    800: #000000, 900: #FFFFFF,
+    A100: #000000, A200: #000000, A400: #000000, A700: #000000,
+  )
+);
+
+$custom-typography: mat.m2-define-typography-config(
+  $font-family: $theme_font_family,
+  $button: mat.m2-define-typography-level(14px, 14px, 400),
+);
+
 @include mat.core();
 
-// Define the custom theme.
-$primary: mat.m2-define-palette(eui_old.$corbin-orange-palette);
-$accent: mat.m2-define-palette(eui_old.$gunmetal-palette);
-$warn: mat.m2-define-palette(eui_old.$phoenix-red-palette);
+$primary: mat.m2-define-palette($brand-primary-palette);
+$accent: mat.m2-define-palette($brand-accent-palette);
+$warn: mat.m2-define-palette($brand-warn-palette);
 
-$theme: mat.m2-define-light-theme((color: (primary: $primary,
-        accent: $accent,
-        warn: $warn,
-      ),
-      typography: $custom-typography,
-    ));
-// Rename the $theme-name variable to your theme's name. (e.g.space-theme)
-$theme-name: 'custom-theme';
-@include theme.theme($theme-name, $theme);
+$theme: mat.m2-define-light-theme((
+  color: (
+    primary: $primary,
+    accent: $accent,
+    warn: $warn,
+  ),
+  typography: $custom-typography,
+));
+
+$theme-name: 'company-theme';
+
 @include imx-theme.theme($theme-name, $theme);
+
+// ------------------------------------------------------------------
+// Neutrale Farben aus deinem Farbschema (nicht Teil der Material-Palette,
+// aber nützlich als CSS-Variablen für Hintergründe, Ränder, Icons etc.)
+// ------------------------------------------------------------------
+:root {
+  --brand-white: #FFFFFF;
+  --brand-grey-light: #DDE1E5;
+  --brand-grey-medium: #A8B7C4;
+  --brand-grey-dark: #B4B5B7;
+  --brand-sand: #E2D9B5;
+}
+
+
+
+// $theme_font_family: 'Source Sans Pro, "Helvetica Neue", sans-serif' !default;
+
+// @use 'sass:math';
+// @use '@angular/material' as mat;
+// @use '@elemental-ui/core/src/styles/_palette' as eui_old;
+// @use '@elemental-ui/core/src/styles/theming/theme' as theme;
+// @use '../shared/scss/base/theme' as imx-theme;
+
+// @use '@elemental-ui/core/src/styles/functions/to_number' as to_number;
+
+// @use '@elemental-ui/core/src/styles/reset' as reset;
+// @use '@elemental-ui/core/src/styles/billboard' as billboard;
+// @use '@elemental-ui/core/src/styles/cadence' as cadence;
+// @use '@elemental-ui/core/src/styles/material_icons' as material_icons;
+// @use '@elemental-ui/core/src/styles/source_sans_pro' as source_sans_pro;
+// @use '@elemental-ui/core/src/styles/palette' as palette;
+// @use '@elemental-ui/core/src/styles/typography' as typography;
+// @use '@elemental-ui/core/src/styles/material_fixes' as material_fixes;
+// @use '@elemental-ui/core/src/styles/inputs' as inputs;
+// @use '@elemental-ui/core/src/styles/clickables' as clickables;
+// @use '@elemental-ui/core/src/styles/common' as common;
+
+// $custom-typography: mat.m2-define-typography-config($font-family: $theme_font_family,
+//     $button: mat.m2-define-typography-level(14px, 14px, 400),
+//   );
+// @include mat.core();
+
+// // Define the custom theme.
+// $primary: mat.m2-define-palette(eui_old.$corbin-orange-palette);
+// $accent: mat.m2-define-palette(eui_old.$gunmetal-palette);
+// $warn: mat.m2-define-palette(eui_old.$phoenix-red-palette);
+
+// $theme: mat.m2-define-light-theme((color: (primary: $primary,
+//         accent: $accent,
+//         warn: $warn,
+//       ),
+//       typography: $custom-typography,
+//     ));
+// // Rename the $theme-name variable to your theme's name. (e.g.space-theme)
+// $theme-name: 'my-theme';
+// @include theme.theme($theme-name, $theme);
+// @include imx-theme.theme($theme-name, $theme);
